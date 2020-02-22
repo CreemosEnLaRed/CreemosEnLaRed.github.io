@@ -3,7 +3,7 @@
     <title>Creemos en la Red</title>
     <link href="http://creemosenlared.com/feed.xml" rel="self" />
     <link href="http://creemosenlared.com" />
-    <updated>2020-02-22T15:02:54+01:00</updated>
+    <updated>2020-02-22T15:27:53+01:00</updated>
     <author>
         <name>Creemos en la Red</name>
     </author>
@@ -17,26 +17,30 @@
         <link href="http://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/"/>
         <id>http://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/</id>
 
-        <updated>2020-02-22T15:00:07+01:00</updated>
+        <updated>2020-02-22T15:27:48+01:00</updated>
             <summary>
                 <![CDATA[
-                    Visitar el canal de youtube de Creemos en la Red Ver los&hellip;
+                    Version video de la consigna: Visitar el canal de youtube de Creemos&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Visitar el canal de <a href="https://www.youtube.com/channel/UC2aMPI6HqVakLiRnkImOShg" target="_blank" rel="noopener noreferrer">youtube de Creemos en la Red</a> </p>
+                <p>Version video de la consigna:</p>
+<p>  <iframe width="560" height="315" src="https://www.youtube.com/embed/X02SCRqmBlk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Visitar el canal de <a href="https://www.youtube.com/channel/UC2aMPI6HqVakLiRnkImOShg/videos" target="_blank" rel="noopener noreferrer">youtube de Creemos en la Red</a> </p>
 <p>Ver los siguientes videos:</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=QKl0i2YSC6o" target="_blank" rel="noopener noreferrer">Introducción a Bloques Web</a></li>
+<li><a href="https://www.youtube.com/watch?v=ODjyWXUFa7M" target="_blank" rel="noopener noreferrer">Crear Cuenta en Github</a></li>
+<li><a href="https://www.youtube.com/watch?v=i2s2Zcw_8rA" target="_blank" rel="noopener noreferrer">Verificando la Cuenta de Github</a></li>
 <li><a href="https://www.youtube.com/watch?v=JuWwZ7k2CH8" target="_blank" rel="noopener noreferrer">Creando nuestra pagina personal en github</a></li>
 <li><a href="https://www.youtube.com/watch?v=b5RtQ_QRcpE">Creando nuestra pagina personal en github (resumen)</a></li>
 </ul>
 <p>Realizar las siguientes actividades por su cuenta:</p>
 <ul>
-<li>Crear propia cuenta en github</li>
-<li>Crear pagina</li>
-<li>Publicarla como pagina personal en github</li>
+<li>Crear su propia cuenta en github</li>
+<li>Crear una pagina usando <a href="http://creemosenlared.com/bloques-web/" target="_blank" rel="noopener noreferrer">Bloques Web</a></li>
+<li>Publicarla la pagina como pagina personal en github</li>
 </ul>
 <p>La pagina puede ser una pagina personal, describiendo algun interes, hobby, tema o propuesta para pagina de Creemos en la Red.</p>
 <p>Entregable:</p>
@@ -45,7 +49,8 @@
 <li>Nombre de usuaria en github</li>
 <li>Link a pagina personal de github</li>
 </ul>
-<p>. </p>
+<p>. Cualquier duda, consultar en el canal de telegram.</p>
+<p>Exitos!</p>
             ]]>
         </content>
     </entry>
