@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Creemos en la Red</title>
+    <link href="http://creemosenlared.com/feed.xml" rel="self" />
+    <link href="http://creemosenlared.com" />
+    <updated>2020-02-22T15:02:54+01:00</updated>
+    <author>
+        <name>Creemos en la Red</name>
+    </author>
+    <id>http://creemosenlared.com</id>
+
+    <entry>
+        <title>Consigna de ingreso a Creemos en la Red 2020</title>
+        <author>
+            <name>Creemos en la Red</name>
+        </author>
+        <link href="http://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/"/>
+        <id>http://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/</id>
+
+        <updated>2020-02-22T15:00:07+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Visitar el canal de youtube de Creemos en la Red Ver los&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Visitar el canal de <a href="https://www.youtube.com/channel/UC2aMPI6HqVakLiRnkImOShg" target="_blank" rel="noopener noreferrer">youtube de Creemos en la Red</a> </p>
+<p>Ver los siguientes videos:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=QKl0i2YSC6o" target="_blank" rel="noopener noreferrer">Introducción a Bloques Web</a></li>
+<li><a href="https://www.youtube.com/watch?v=JuWwZ7k2CH8" target="_blank" rel="noopener noreferrer">Creando nuestra pagina personal en github</a></li>
+<li><a href="https://www.youtube.com/watch?v=b5RtQ_QRcpE">Creando nuestra pagina personal en github (resumen)</a></li>
+</ul>
+<p>Realizar las siguientes actividades por su cuenta:</p>
+<ul>
+<li>Crear propia cuenta en github</li>
+<li>Crear pagina</li>
+<li>Publicarla como pagina personal en github</li>
+</ul>
+<p>La pagina puede ser una pagina personal, describiendo algun interes, hobby, tema o propuesta para pagina de Creemos en la Red.</p>
+<p>Entregable:</p>
+<ul>
+<li>Nombre de usuaria en Telegram</li>
+<li>Nombre de usuaria en github</li>
+<li>Link a pagina personal de github</li>
+</ul>
+<p>. </p>
+            ]]>
+        </content>
+    </entry>
+</feed>

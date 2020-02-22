@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Creemos en la Red",
+    "description": "",
+    "home_page_url": "http://creemosenlared.com",
+    "feed_url": "http://creemosenlared.com/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Creemos en la Red"
+    },
+    "items": [
+        {
+            "id": "http://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/",
+            "url": "http://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/",
+            "title": "Consigna de ingreso a Creemos en la Red 2020",
+            "summary": "Visitar el canal de youtube de Creemos en la Red Ver los&hellip;",
+            "content_html": "<p>Visitar el canal de <a href=\"https://www.youtube.com/channel/UC2aMPI6HqVakLiRnkImOShg\" target=\"_blank\" rel=\"noopener noreferrer\">youtube de Creemos en la Red</a> </p>\n<p>Ver los siguientes videos:</p>\n<ul>\n<li><a href=\"https://www.youtube.com/watch?v=QKl0i2YSC6o\" target=\"_blank\" rel=\"noopener noreferrer\">Introducción a Bloques Web</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=JuWwZ7k2CH8\" target=\"_blank\" rel=\"noopener noreferrer\">Creando nuestra pagina personal en github</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=b5RtQ_QRcpE\">Creando nuestra pagina personal en github (resumen)</a></li>\n</ul>\n<p>Realizar las siguientes actividades por su cuenta:</p>\n<ul>\n<li>Crear propia cuenta en github</li>\n<li>Crear pagina</li>\n<li>Publicarla como pagina personal en github</li>\n</ul>\n<p>La pagina puede ser una pagina personal, describiendo algun interes, hobby, tema o propuesta para pagina de Creemos en la Red.</p>\n<p>Entregable:</p>\n<ul>\n<li>Nombre de usuaria en Telegram</li>\n<li>Nombre de usuaria en github</li>\n<li>Link a pagina personal de github</li>\n</ul>\n<p>. </p>",
+            "author": {
+                "name": "Creemos en la Red"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-02-22T14:54:58+01:00",
+            "date_modified": "2020-02-22T15:00:07+01:00"
+        }
+    ]
+}
