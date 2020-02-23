@@ -3,7 +3,7 @@
     <title>Creemos en la Red</title>
     <link href="http://creemosenlared.com/feed.xml" rel="self" />
     <link href="http://creemosenlared.com" />
-    <updated>2020-02-22T15:27:53+01:00</updated>
+    <updated>2020-02-23T11:43:16+01:00</updated>
     <author>
         <name>Creemos en la Red</name>
     </author>
@@ -17,17 +17,21 @@
         <link href="http://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/"/>
         <id>http://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/</id>
 
-        <updated>2020-02-22T15:27:48+01:00</updated>
+        <updated>2020-02-23T11:43:11+01:00</updated>
             <summary>
                 <![CDATA[
-                    Version video de la consigna: Visitar el canal de youtube de Creemos&hellip;
+                    Hola! Bienvenides a Creemos en la Red! En este curso vas a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Version video de la consigna:</p>
+                <p>Hola! Bienvenides a Creemos en la Red! En este curso vas a aprender los fundamentos de la programación de sitios web. Si algo no te sale, no te preocupes, las mentoras del grupo de Telegram están a disposición para responder tus consultas. Y recordá que los errores son parte del aprendizaje! Nadie nace sabiendo programar, pero todes podemos aprender.</p>
+<p>En este primer ejercicio, vas a crear una cuenta en Github. ¿Qué es GitHub? Es una página que nos permite organizar nuestros proyectos de programación usando algo llamado Git. ¿Y qué es Git? Los programas (ya sean páginas web, software, o lo que sea que escribamos con código) no se escriben de una sola vez y ya está. En general, lleva varios días de trabajo, correcciones, reescrituras y agregados hasta que llegamos a la versión “final” (y luego tenemos que mantenerla y corregir los bugs!). Git nos ayuda manteniendo un historial de todos los cambios que hicimos a nuestro proyecto, desde la primera línea que escribimos hasta la versión final, sin importar cuán compleja sea. </p>
+<p>También nos permite otra cosa muy importante que es colaborar con otras personas en un mismo proyecto. Si tienen cierta edad, se acuerdan cuando no existía google drive y teníamos que mandarnos archivos de word por mail para hacer un TP grupal (o juntarnos sí o sí la misma casa). Era muy incómodo! En ese sentido, Git es como un Google Drive para programadores: centraliza todos los aportes en una versión "oficial" del proyecto y así permite que varias personas trabajen en un mismo proyecto sin pisarse.</p>
+<p><br>Por eso, Git (y GitHub) son usados en casi todos los trabajos de programación. Esta herramienta te va a ser intensamente útil en tu vida profesional si trabajás con código. <br><br>Para este primer ejercicio, solamente tenés que hacerte una cuenta en GitHub. Más adelante nos iremos familiarizando con cómo funciona.</p>
+<p>Version video de la consigna:</p>
 <p>  <iframe width="560" height="315" src="https://www.youtube.com/embed/X02SCRqmBlk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
-<p>Visitar el canal de <a href="https://www.youtube.com/channel/UC2aMPI6HqVakLiRnkImOShg/videos" target="_blank" rel="noopener noreferrer">youtube de Creemos en la Red</a> </p>
+<p>El primer paso es visitar el canal de <a href="https://www.youtube.com/channel/UC2aMPI6HqVakLiRnkImOShg/videos" target="_blank" rel="noopener noreferrer">youtube de Creemos en la Red</a> (y suscribirse si tenes ganas :)</p>
 <p>Ver los siguientes videos:</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=QKl0i2YSC6o" target="_blank" rel="noopener noreferrer">Introducción a Bloques Web</a></li>
@@ -36,20 +40,21 @@
 <li><a href="https://www.youtube.com/watch?v=JuWwZ7k2CH8" target="_blank" rel="noopener noreferrer">Creando nuestra pagina personal en github</a></li>
 <li><a href="https://www.youtube.com/watch?v=b5RtQ_QRcpE">Creando nuestra pagina personal en github (resumen)</a></li>
 </ul>
-<p>Realizar las siguientes actividades por su cuenta:</p>
+<p>Realizar las siguientes actividades:</p>
 <ul>
-<li>Crear su propia cuenta en github</li>
-<li>Crear una pagina usando <a href="http://creemosenlared.com/bloques-web/" target="_blank" rel="noopener noreferrer">Bloques Web</a></li>
-<li>Publicarla la pagina como pagina personal en github</li>
+<li>Crear su propia cuenta en github (como se muestra en el video <a href="https://www.youtube.com/watch?v=ODjyWXUFa7M" target="_blank" rel="noopener noreferrer">Crear Cuenta en Github</a>)</li>
+<li>Crear una pagina usando <a href="http://creemosenlared.com/bloques-web/" target="_blank" rel="noopener noreferrer">Bloques Web</a> (como se muestra en el video <a href="https://www.youtube.com/watch?v=QKl0i2YSC6o" target="_blank" rel="noopener noreferrer">Introducción a Bloques Web</a>)</li>
+<li>Publicarla la pagina como pagina personal en github  (como se muestra en los videos <a href="https://www.youtube.com/watch?v=JuWwZ7k2CH8" target="_blank" rel="noopener noreferrer">Creando nuestra pagina personal en github</a> y <a href="https://www.youtube.com/watch?v=b5RtQ_QRcpE">Creando nuestra pagina personal en github (resumen)</a>)</li>
 </ul>
-<p>La pagina puede ser una pagina personal, describiendo algun interes, hobby, tema o propuesta para pagina de Creemos en la Red.</p>
+<p>La pagina puede ser una pagina personal, describiendo algun hobby, organizacion o tema de interes, o una propuesta para la pagina principal de Creemos en la Red.</p>
 <p>Entregable:</p>
 <ul>
 <li>Nombre de usuaria en Telegram</li>
 <li>Nombre de usuaria en github</li>
 <li>Link a pagina personal de github</li>
 </ul>
-<p>. Cualquier duda, consultar en el canal de telegram.</p>
+<p>Por telegram les vamos a avisar por donde se realiza la entrega de la consigna.</p>
+<p>Cualquier duda, consultar en el canal de telegram.</p>
 <p>Exitos!</p>
             ]]>
         </content>
