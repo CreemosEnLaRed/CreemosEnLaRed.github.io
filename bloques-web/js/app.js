@@ -114,6 +114,10 @@ function main() {
   setupBS(Blockly);
   setupHTML(Blockly);
 
+  genFullPageNode.addEventListener('change', e =>
+    onWorkspaceUpdate(e, workspace, targetDomNode, editor, genFullPageNode)
+  );
+
   downloadHTMLBtn.addEventListener('click', _ => {
     downloadAs(
       genEditorText(targetDomNode.innerHTML, genFullPageNode.checked),
