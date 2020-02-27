@@ -7,8 +7,30 @@ import {setup as setupHTML} from './html.js';
 import {getBlockListFromBlock} from './blockly.js';
 import {readFirstInputFileAsText} from './file.js';
 import {downloadAs} from './download.js';
+import {throttle} from './util.js';
 
 const BLOCK_CHANGE = Blockly.Events.BLOCK_CHANGE;
+
+function persistRaw(workspace) {
+  window.localStorage.bloquesWebSession = getSnapsthoData(workspace);
+}
+
+const persist = throttle(persistRaw, 2000);
+
+function restore(workspace) {
+  const sessionRaw = window.localStorage.bloquesWebSession;
+  if (sessionRaw !== undefined) {
+    importWorkpsaceFromRawData(workspace, sessionRaw);
+  }
+}
+
+function importWorkpsaceFromRawData(workspace, rawData) {
+  const data = JSON.parse(rawData),
+    xmlText = data.blocks,
+    xmlDom = Blockly.Xml.textToDom(xmlText);
+  Blockly.Xml.domToWorkspace(xmlDom, workspace);
+}
+
 function onWorkspaceUpdate(
   e,
   workspace,
@@ -34,9 +56,13 @@ function onWorkspaceUpdate(
     }
   }
 
-  editor.setValue(
-    genEditorText(targetDomNode.innerHTML, genFullPageNode.checked)
-  );
+  if (editor) {
+    editor.setValue(
+      genEditorText(targetDomNode.innerHTML, genFullPageNode.checked)
+    );
+  }
+
+  persist(workspace);
 }
 
 const HTML_PREFIX = `<!DOCTYPE html>
@@ -59,12 +85,16 @@ function genEditorText(bodyHTML, genFullPage) {
   return genFullPage ? HTML_PREFIX + bodyHTML + HTML_SUFFIX : bodyHTML;
 }
 
-function exportWorkspace(workspace) {
+function getSnapsthoData(workspace) {
   const xmlDom = Blockly.Xml.workspaceToDom(workspace),
     xmlText = Blockly.Xml.domToText(xmlDom);
 
+  return JSON.stringify({blocks: xmlText});
+}
+
+function exportWorkspace(workspace) {
   downloadAs(
-    JSON.stringify({blocks: xmlText}),
+    getSnapsthoData(workspace),
     'bloques-' + new Date().toISOString().replace(/[: .]/g, '-') + '.bloques',
     'application/json'
   );
@@ -72,10 +102,7 @@ function exportWorkspace(workspace) {
 
 function importWorkspace(workspace, input) {
   readFirstInputFileAsText(input, rawData => {
-    const data = JSON.parse(rawData),
-      xmlText = data.blocks,
-      xmlDom = Blockly.Xml.textToDom(xmlText);
-    Blockly.Xml.domToWorkspace(xmlDom, workspace);
+    importWorkpsaceFromRawData(workspace, rawData);
   });
 }
 
@@ -113,6 +140,7 @@ function main() {
   setupHS(Blockly);
   setupBS(Blockly);
   setupHTML(Blockly);
+  restore(workspace);
 
   genFullPageNode.addEventListener('change', e =>
     onWorkspaceUpdate(e, workspace, targetDomNode, editor, genFullPageNode)
@@ -145,10 +173,15 @@ function main() {
   importBtn.addEventListener('click', _ =>
     importWorkspace(workspace, fileImport)
   );
+
+  window.appOnEditorLoaded = function(ed, _node) {
+    editor = ed;
+
+    editor.setValue(
+      genEditorText(targetDomNode.innerHTML, genFullPageNode.checked)
+    );
+    byId('targetHTML').style.display = 'none';
+  };
 }
 
-window.appOnEditorLoaded = function(ed, _node) {
-  editor = ed;
-  byId('targetHTML').style.display = 'none';
-};
 main();
