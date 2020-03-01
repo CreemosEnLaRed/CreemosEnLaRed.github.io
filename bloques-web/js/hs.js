@@ -60,6 +60,14 @@ Link.prototype.toDom = function(indent) {
   return ce('a', {href: this.href}, indent, [ct(this.label)]);
 };
 
+class Hr {
+  constructor() {}
+
+  toDom(indent) {
+    return ce('hr', {}, indent, []);
+  }
+}
+
 function List(attrs, childs) {
   this.type = attrs.type;
   this.childs = childs;
@@ -128,6 +136,10 @@ function hsToDomLink() {
   });
 }
 
+function hsToDomHr() {
+  return new Hr();
+}
+
 const TAGS = [
     'hs_par',
     'hs_title',
@@ -137,7 +149,8 @@ const TAGS = [
     'hs_div',
     'hs_wraptext',
     'hs_img',
-    'hs_link'
+    'hs_link',
+    'hs_hr'
   ],
   SERIALIZERS = {
     hs_par: hsToDomPar,
@@ -148,7 +161,8 @@ const TAGS = [
     hs_div: hsToDomDiv,
     hs_wraptext: hsToDomWrapText,
     hs_img: hsToDomImg,
-    hs_link: hsToDomLink
+    hs_link: hsToDomLink,
+    hs_hr: hsToDomHr
   };
 
 function setup(Blockly) {

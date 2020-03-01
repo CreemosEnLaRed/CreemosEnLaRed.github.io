@@ -1,7 +1,7 @@
 <xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="k#o:]XA{/n|s60)$S`jz" deletable="false" movable="false" x="10" y="10">
     <mutation connections="BOTH"/>
     <field name="NAME">hs_par</field>
-    <field name="INLINE">AUTO</field>
+    <field name="INLINE">INT</field>
     <field name="CONNECTIONS">BOTH</field>
     <statement name="INPUTS">
       <block type="input_dummy" id="^4*dn-6#O@fT6@63zSvR">
@@ -1857,6 +1857,43 @@
       <block type="colour_hue" id="()/EKE4Bx}HXN+r|`|};">
         <mutation colour="#a55b5b"/>
         <field name="HUE">0</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="Ko?mSl}l4T-uZ]02YJZ+" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">hs_hr</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="/O*.nUb[@UGQ9OU!hS%*">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Rhp$uR$ZZ9iwY6TGWZ0Z">
+            <field name="TEXT">Separador</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="O;E2ShdN3s|Ne.gXi,Y!" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]3F4[:fmFqgK?p.nF.o+" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="-TfBb]}|IF`qmH|P.1d7"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="g*f]}uF1SHKomFWG8B5C"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="?CrWQUM8LQ1=]K)^?=!H">
+        <mutation colour="#a5935b"/>
+        <field name="HUE">45</field>
       </block>
     </value>
   </block></xml>

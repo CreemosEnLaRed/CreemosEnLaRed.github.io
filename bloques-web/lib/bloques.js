@@ -4,6 +4,7 @@ Blockly.Blocks['hs_par'] = {
         .appendField("Parrafo");
     this.appendStatementInput("ITEMS")
         .setCheck(null);
+    this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(230);
@@ -439,6 +440,18 @@ Blockly.Blocks['html_attr_raw'] = {
         .appendField("\"");
     this.setOutput(true, null);
     this.setColour(0);
+ this.setTooltip("");
+ this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['hs_hr'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("Separador");
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(45);
  this.setTooltip("");
  this.setHelpUrl("");
   }
