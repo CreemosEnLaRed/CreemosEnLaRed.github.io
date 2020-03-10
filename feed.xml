@@ -3,12 +3,62 @@
     <title>Creemos en la Red</title>
     <link href="http://creemosenlared.com/feed.xml" rel="self" />
     <link href="http://creemosenlared.com" />
-    <updated>2020-02-24T10:33:55+01:00</updated>
+    <updated>2020-03-10T19:01:07+01:00</updated>
     <author>
         <name>Creemos en la Red</name>
     </author>
     <id>http://creemosenlared.com</id>
 
+    <entry>
+        <title>Primer Actividad de Creemos en la Red 2020!</title>
+        <author>
+            <name>Creemos en la Red</name>
+        </author>
+        <link href="http://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/"/>
+        <id>http://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/</id>
+
+        <updated>2020-03-10T19:01:00+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Hola! Felicitaciones a les participantes de la tercera edición de este curso,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Hola!</p>
+<p>Felicitaciones a les participantes de la tercera edición de este curso, primera versión completamente online.</p>
+<p>Gracias a las mentoras que ayudaron con la consigna de ingreso.</p>
+<p>Es hora de empezar a aprender en detalle que es esto del desarrollo web, el diseño de paginas web, HTML, CSS y demases. Pero primero vamos a empezar con una introducción a HTML y nuestras primeras lineas de HTML escritas a mano.</p>
+<p>La actividad consiste en:</p>
+<ul>
+<li>Ver los videos de la siguiente lista de reproducción: <a href="https://www.youtube.com/watch?v=5sOfh4AenHk&amp;list=PLjCOYDkvpGJeWKZf0sq-7sRS1g3oZLbvP" target="_blank" rel="noopener noreferrer">Empezando con HTML</a></li>
+<li>Crear un nuevo repositorio en su cuenta de github con el nombre que quieran, si no se les ocurre un nombre en particular pueden nombrarlo <strong>actividad-1</strong></li>
+<li>Crear dos paginas (archivos) dentro del repositorio, uno llamado <strong>index.html</strong>, el otro puede tener cualquier nombre, si no se les ocurre uno pueden nombrarlo <strong>pagina.html</strong></li>
+<li>El contenido de las paginas es libre, solo tiene que contar con las siguientes condiciones:
+<ul>
+<li>Un enlace o imagen que use una dirección absoluta</li>
+<li>Un enlace o imagen que use una dirección relativa</li>
+<li>La pagina index.html tiene que tener un enlace a la otra pagina (pagina.html o el nombre que hayan elegido)</li>
+<li>Una de las paginas tiene que tener un titulo que no sea <strong>Mi Pagina</strong></li>
+</ul>
+</li>
+</ul>
+<p>La entrega se va a hacer usando <em>Issues</em> de Github, es una forma de reportar problemas, solicitudes o preguntas en un repositorio de Github, para eso creamos un repositorio en donde vamos a recibir las entregas, para entregar la actividad tienen que:</p>
+<ul>
+<li>Ir a <a href="https://github.com/CreemosEnLaRed/entregas/issues">https://github.com/CreemosEnLaRed/entregas/issues</a></li>
+<li>Hacer click en el botón verde <strong>New issue</strong> que esta a la derecha</li>
+<li>Hacer click en el botón verde <strong>Get started</strong> a la derecha de la platilla <strong class="f4">Entrega de Actividad</strong></li>
+<li>Cambiar la <em>Dirección de la actividad</em> por la direccion (URL) de su actividad</li>
+<li>Si tenes ganas, contestar las preguntas para que vayamos mejorando las actividades</li>
+<li>Si sos oyente del curso, agregar la etiqueta <strong>oyente</strong></li>
+<li>Hacer click en el botón verde <strong>Submit new issue</strong></li>
+</ul>
+<p><strong>Importante: </strong>tanto la pagina que creen como la información en el issue de entrega son información publica que se puede encontrar fácilmente navegando o con un buscador.</p>
+<p>Tenerlo en cuenta con el contenido que creen, eviten poner información privada, también tenerlo en cuenta en la respuesta a las preguntas.</p>
+<p>Si prefieren darnos feedback por privado pueden usar mensajes privados en las redes sociales o mandarnos un mail.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Consigna de ingreso a Creemos en la Red 2020</title>
         <author>
