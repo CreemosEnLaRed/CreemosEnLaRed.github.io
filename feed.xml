@@ -3,7 +3,7 @@
     <title>Creemos en la Red</title>
     <link href="http://creemosenlared.com/feed.xml" rel="self" />
     <link href="http://creemosenlared.com" />
-    <updated>2020-03-10T19:01:07+01:00</updated>
+    <updated>2020-03-11T11:55:15+01:00</updated>
     <author>
         <name>Creemos en la Red</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="http://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/"/>
         <id>http://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/</id>
 
-        <updated>2020-03-10T19:01:00+01:00</updated>
+        <updated>2020-03-11T11:55:08+01:00</updated>
             <summary>
                 <![CDATA[
                     Hola! Felicitaciones a les participantes de la tercera edición de este curso,&hellip;
@@ -27,13 +27,13 @@
             <![CDATA[
                 <p>Hola!</p>
 <p>Felicitaciones a les participantes de la tercera edición de este curso, primera versión completamente online.</p>
-<p>Gracias a las mentoras que ayudaron con la consigna de ingreso.</p>
+<p>Gracias a las mentoras que ayudaron con la consigna de ingreso!</p>
 <p>Es hora de empezar a aprender en detalle que es esto del desarrollo web, el diseño de paginas web, HTML, CSS y demases. Pero primero vamos a empezar con una introducción a HTML y nuestras primeras lineas de HTML escritas a mano.</p>
 <p>La actividad consiste en:</p>
 <ul>
 <li>Ver los videos de la siguiente lista de reproducción: <a href="https://www.youtube.com/watch?v=5sOfh4AenHk&amp;list=PLjCOYDkvpGJeWKZf0sq-7sRS1g3oZLbvP" target="_blank" rel="noopener noreferrer">Empezando con HTML</a></li>
-<li>Crear un nuevo repositorio en su cuenta de github con el nombre que quieran, si no se les ocurre un nombre en particular pueden nombrarlo <strong>actividad-1</strong></li>
-<li>Crear dos paginas (archivos) dentro del repositorio, uno llamado <strong>index.html</strong>, el otro puede tener cualquier nombre, si no se les ocurre uno pueden nombrarlo <strong>pagina.html</strong></li>
+<li>Crear un nuevo directorio en su pagina personal de github (github.com/<strong><em>user</em></strong>/<strong><em>user</em></strong>.github.io) con el nombre que quieran, si no se les ocurre un nombre en particular pueden nombrarlo <strong>actividad-1</strong></li>
+<li>Crear dos paginas (archivos) dentro del directorio, uno llamado <strong>index.html</strong>, el otro puede tener cualquier nombre, si no se les ocurre uno pueden nombrarlo <strong>pagina.html</strong></li>
 <li>El contenido de las paginas es libre, solo tiene que contar con las siguientes condiciones:
 <ul>
 <li>Un enlace o imagen que use una dirección absoluta</li>
