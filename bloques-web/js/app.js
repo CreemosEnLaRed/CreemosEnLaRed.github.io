@@ -52,7 +52,9 @@ function onWorkspaceUpdate(
   if (e.type === BLOCK_CHANGE) {
     if (e.element === 'field' && e.name === 'TAG') {
       const block = workspace.getBlockById(e.blockId);
-      block.setFieldValue(e.newValue, 'TAG_CLOSE');
+      if (block.getField('TAG_CLOSE') !== null) {
+        block.setFieldValue(e.newValue, 'TAG_CLOSE');
+      }
     }
   }
 
@@ -174,7 +176,7 @@ function main() {
     importWorkspace(workspace, fileImport)
   );
 
-  window.appOnEditorLoaded = function(ed, _node) {
+  window.appOnEditorLoaded = function (ed, _node) {
     editor = ed;
 
     editor.setValue(
