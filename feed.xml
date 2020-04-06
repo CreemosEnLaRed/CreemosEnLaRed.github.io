@@ -3,12 +3,71 @@
     <title>Creemos en la Red</title>
     <link href="http://creemosenlared.com/feed.xml" rel="self" />
     <link href="http://creemosenlared.com" />
-    <updated>2020-03-11T13:32:05+01:00</updated>
+    <updated>2020-04-06T19:49:25+02:00</updated>
     <author>
         <name>Creemos en la Red</name>
     </author>
     <id>http://creemosenlared.com</id>
 
+    <entry>
+        <title> Segunda Actividad de Creemos en la Red 2020!</title>
+        <author>
+            <name>Creemos en la Red</name>
+        </author>
+        <link href="http://creemosenlared.com/segunda-actividad-de-creemos-en-la-red-2020/"/>
+        <id>http://creemosenlared.com/segunda-actividad-de-creemos-en-la-red-2020/</id>
+
+        <updated>2020-04-06T19:49:18+02:00</updated>
+            <summary>
+                <![CDATA[
+                    En la segunda actividad vamos a acercarnos un poco mas a nuestro&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>En la segunda actividad vamos a acercarnos un poco mas a nuestro objetivo, programar en HTML directamente.<br><br>Para eso vamos a hacer uso de bloques de mas "bajo nivel", mas cerca del HTML final que los bloques que veníamos usando, para empezar en este camino hacia HTML vamos a usar los bloques que ya conocemos como guia.<br><br>La actividad consiste en crear un conjunto de bloques y replicarlos con los nuevos bloques de la sección HTML, así vemos aconstumbrandonos a leer HTML y a su estructura (tags de apertura, atributos, tags hijos, tags de cierre) y a sus nombres.</p>
+<p>Para completar la actividad se deberán cumplir con los siguientes requisitos (al final del post hay un video explicando los pasos)</p>
+<ul>
+<li>Crear una pagina en <a href="http://creemosenlared.com/bloques-web/">http://creemosenlared.com/bloques-web/</a> con los siguientes bloques de las secciones "Texto", "Lista" y "Otros"
+<ul>
+<li>Titulo (de cualquier nivel)</li>
+<li>Párrafo</li>
+<li>Enlace</li>
+<li>Imagen</li>
+<li>Lista (ordenada o no ordenada) con al menos dos items</li>
+</ul>
+</li>
+<li>Replicar el código HTML generado con los bloques de la sección HTML (Bloque 1 y Atributo 1)
+<ul>
+<li>Al menos uno de los ejemplos tiene que ser hecho con los bloques Bloque 2 y Atributo 2</li>
+</ul>
+</li>
+<li>Publicar la pagina completa en su pagina personal en un nuevo directorio llamado <strong>actividad-2</strong>
+<ul>
+<li>El codigo HTML en un archivo llamado index.html</li>
+<li>El archivo .bloques en un archivo llamado actividad2.bloques</li>
+</ul>
+</li>
+<li>Crear un nuevo issue con la dirección de la entrega en <a href="https://github.com/CreemosEnLaRed/entregas/issues">https://github.com/CreemosEnLaRed/entregas/issues</a> usando la plantilla "Entrega de Actividad 2"</li>
+<li>Si tienen ganas, tiempo y todavía no lo hicieron, ver los siguientes videos
+<ul>
+<li><a href="https://www.youtube.com/watch?v=8nozTRdu7Wk">Explicacion de bloques web, archivos, paginas, servidores y demases</a></li>
+<li><a href="https://www.youtube.com/watch?v=oek7-SKET2U">Como funciona un navegador: archivos, paginas, servidores, dominios y la mar en coche</a></li>
+<li><a href="https://www.youtube.com/watch?v=xBZkctE0n_Q">Como la gente difunde capturas de pantalla falsas de paginas web</a></li>
+<li><a href="https://www.youtube.com/watch?v=KibEs2sikSg">Un dia en la vida de una programadora</a></li>
+</ul>
+</li>
+</ul>
+<p><img class="post__image" src="http://creemosenlared.com/media/posts/3/tipo-bloques.png" alt="Tipos de Bloques" width="286" height="310"></p>
+<p><img class="post__image" src="http://creemosenlared.com/media/posts/3/seccion-texto.png" alt="" width="447" height="365"></p>
+<p><img class="post__image" src="http://creemosenlared.com/media/posts/3/seccion-otros.png" alt="" width="369" height="232"></p>
+<p><img class="post__image" src="http://creemosenlared.com/media/posts/3/seccion-lista.png" alt="" width="326" height="413"></p>
+<p>Un video con el resumen de la actividad:</p>
+<p> </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4S59bXuZoTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Primer Actividad de Creemos en la Red 2020!</title>
         <author>
