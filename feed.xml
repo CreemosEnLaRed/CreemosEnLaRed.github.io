@@ -3,7 +3,7 @@
     <title>Creemos en la Red</title>
     <link href="http://creemosenlared.com/feed.xml" rel="self" />
     <link href="http://creemosenlared.com" />
-    <updated>2020-04-06T19:49:25+02:00</updated>
+    <updated>2020-04-06T19:54:38+02:00</updated>
     <author>
         <name>Creemos en la Red</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="http://creemosenlared.com/segunda-actividad-de-creemos-en-la-red-2020/"/>
         <id>http://creemosenlared.com/segunda-actividad-de-creemos-en-la-red-2020/</id>
 
-        <updated>2020-04-06T19:49:18+02:00</updated>
+        <updated>2020-04-06T19:54:33+02:00</updated>
             <summary>
                 <![CDATA[
                     En la segunda actividad vamos a acercarnos un poco mas a nuestro&hellip;
@@ -25,7 +25,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <p>En la segunda actividad vamos a acercarnos un poco mas a nuestro objetivo, programar en HTML directamente.<br><br>Para eso vamos a hacer uso de bloques de mas "bajo nivel", mas cerca del HTML final que los bloques que veníamos usando, para empezar en este camino hacia HTML vamos a usar los bloques que ya conocemos como guia.<br><br>La actividad consiste en crear un conjunto de bloques y replicarlos con los nuevos bloques de la sección HTML, así vemos aconstumbrandonos a leer HTML y a su estructura (tags de apertura, atributos, tags hijos, tags de cierre) y a sus nombres.</p>
+                <p>En la segunda actividad vamos a acercarnos un poco mas a nuestro objetivo, programar en HTML directamente.<br><br>Para eso vamos a hacer uso de bloques de mas "bajo nivel", mas cerca del HTML final que los bloques que veníamos usando, para empezar en este camino hacia HTML vamos a usar los bloques que ya conocemos como guia.<br><br>La actividad consiste en crear un conjunto de bloques y replicarlos con los nuevos bloques de la sección HTML, así vamos aconstumbrandonos a leer HTML y a su estructura (tags de apertura, atributos, tags hijos, tags de cierre) y a sus nombres.</p>
 <p>Para completar la actividad se deberán cumplir con los siguientes requisitos (al final del post hay un video explicando los pasos)</p>
 <ul>
 <li>Crear una pagina en <a href="http://creemosenlared.com/bloques-web/">http://creemosenlared.com/bloques-web/</a> con los siguientes bloques de las secciones "Texto", "Lista" y "Otros"
@@ -37,12 +37,12 @@
 <li>Lista (ordenada o no ordenada) con al menos dos items</li>
 </ul>
 </li>
-<li>Replicar el código HTML generado con los bloques de la sección HTML (Bloque 1 y Atributo 1)
+<li>Replicar el código HTML generado con los bloques de la sección HTML (Bloque 1 y Atributo 1 en la imagen mas abajo)
 <ul>
-<li>Al menos uno de los ejemplos tiene que ser hecho con los bloques Bloque 2 y Atributo 2</li>
+<li>Al menos uno de los bloques tiene que ser replicado con los bloques Bloque 2 y Atributo 2 en la imagen mas abajo</li>
 </ul>
 </li>
-<li>Publicar la pagina completa en su pagina personal en un nuevo directorio llamado <strong>actividad-2</strong>
+<li>Publicar la pagina completa en su pagina personal en un nuevo directorio llamado <strong>actividad-2</strong>, dentro del directorio tiene que haber dos archivos
 <ul>
 <li>El codigo HTML en un archivo llamado index.html</li>
 <li>El archivo .bloques en un archivo llamado actividad2.bloques</li>
