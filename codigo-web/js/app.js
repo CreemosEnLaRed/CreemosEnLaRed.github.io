@@ -53,5 +53,3 @@ function updateResult(models) {
 window.appOnEditorLoaded = function (editor, _node, models) {
 	main(editor, models);
 };
-
-main();
