@@ -22,7 +22,7 @@ const defaultHTMLCode = `<!doctype html>
 </html>`;
 require(['vs/editor/editor.main'], function () {
   const modelHTML = monaco.editor.createModel(defaultHTMLCode, 'html'),
-    modelCSS = monaco.editor.createModel('html,body{height:100%}\np{color:blue}', 'css'),
+    modelCSS = monaco.editor.createModel('html,body{height:100%}', 'css'),
     models = {html: modelHTML, css: modelCSS},
     node = document.getElementById('editor'),
     editor = monaco.editor.create(node, {

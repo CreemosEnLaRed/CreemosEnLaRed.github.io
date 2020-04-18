@@ -1,7 +1,20 @@
 //@format
 
-function main() {
-	console.log('main');
+function main(editor, models) {
+	const tabHTML = byId('tabHTML'),
+		tabCSS = byId('tabCSS'),
+		tabHTMLLink = byId('tabHTML'),
+		tabCSSLink = byId('tabCSSLink');
+
+	tabCSS.addEventListener('click', _e => {
+		setModelAndSetActiveTab(editor, models.css, tabCSSLink);
+	});
+	tabHTML.addEventListener('click', _e => {
+		setModelAndSetActiveTab(editor, models.html, tabHTMLLink);
+	});
+
+	editor.onDidChangeModelContent(_e => updateResult(models));
+	updateResult(models);
 }
 
 function byId(id) {
@@ -38,20 +51,7 @@ function updateResult(models) {
 }
 
 window.appOnEditorLoaded = function (editor, _node, models) {
-	const tabHTML = byId('tabHTML'),
-		tabCSS = byId('tabCSS'),
-		tabHTMLLink = byId('tabHTML'),
-		tabCSSLink = byId('tabCSSLink');
-
-	tabCSS.addEventListener('click', _e => {
-		setModelAndSetActiveTab(editor, models.css, tabCSSLink);
-	});
-	tabHTML.addEventListener('click', _e => {
-		setModelAndSetActiveTab(editor, models.html, tabHTMLLink);
-	});
-
-	editor.onDidChangeModelContent(_e => updateResult(models));
-	updateResult(models);
+	main(editor, models);
 };
 
 main();
