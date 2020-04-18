@@ -3,7 +3,7 @@
 function main(editor, models) {
 	const tabHTML = byId('tabHTML'),
 		tabCSS = byId('tabCSS'),
-		tabHTMLLink = byId('tabHTML'),
+		tabHTMLLink = byId('tabHTMLLink'),
 		tabCSSLink = byId('tabCSSLink');
 
 	tabCSS.addEventListener('click', _e => {
