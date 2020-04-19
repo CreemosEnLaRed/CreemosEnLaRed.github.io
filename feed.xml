@@ -3,7 +3,7 @@
     <title>Creemos en la Red</title>
     <link href="http://creemosenlared.com/feed.xml" rel="self" />
     <link href="http://creemosenlared.com" />
-    <updated>2020-04-19T19:06:17+02:00</updated>
+    <updated>2020-04-19T19:15:53+02:00</updated>
     <author>
         <name>Creemos en la Red</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="http://creemosenlared.com/tercera-actividad-de-creemos-en-la-red-2020/"/>
         <id>http://creemosenlared.com/tercera-actividad-de-creemos-en-la-red-2020/</id>
 
-        <updated>2020-04-19T19:06:13+02:00</updated>
+        <updated>2020-04-19T19:15:47+02:00</updated>
             <summary>
                 <![CDATA[
                     Llego el día, vamos a empezar a escribir código HTML! Para concentrarnos&hellip;
@@ -32,6 +32,7 @@
 <p>Aclaración: no sirve escribir el código de principio a fin sin prestar atención al orden en el que normalmente se escribe, nadie escribe código de corrido y sin errores, es un proceso incremental, a base de prueba y error, por eso es importante escribirlo en el orden que se muestra.</p>
 <p>Una vez terminada la transcripción, crear un nuevo directorio en su sitio personal, llamado <strong>actividad-3</strong> con el código en un archivo llamado <strong>index.html</strong></p>
 <p>Crear un issue en <a href="https://github.com/CreemosEnLaRed/entregas/issues">https://github.com/CreemosEnLaRed/entregas/issues</a> usando la plantilla <strong class="f4">Entrega de Actividad 3</strong></p>
+<p class="msg msg--highlight  align-center"><strong>IMPORTANTE: cambiar en el titulo del issue por su user o nombre que aparece en telegram.</strong></p>
 <br><iframe width="560" height="315" src="https://www.youtube.com/embed/RJH5jU73aNI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
 <p>En el siguiente video muestro algunas de las características útiles del editor de código para facilitarnos el trabajo:</p>
 <p> </p>
