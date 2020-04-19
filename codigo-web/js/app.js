@@ -6,6 +6,9 @@ function main(editor, models) {
     tabHTMLLink = byId('tabHTMLLink'),
     tabCSSLink = byId('tabCSSLink');
 
+  models.html.updateOptions({tabSize: 2});
+  models.css.updateOptions({tabSize: 2});
+
   tabCSS.addEventListener('click', _e => {
     setModelAndSetActiveTab(editor, models.css, tabCSSLink);
   });
