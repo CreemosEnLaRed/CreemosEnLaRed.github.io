@@ -3,7 +3,7 @@
     <title>Creemos en la Red</title>
     <link href="http://creemosenlared.com/feed.xml" rel="self" />
     <link href="http://creemosenlared.com" />
-    <updated>2020-04-19T19:15:53+02:00</updated>
+    <updated>2020-04-20T11:21:59+02:00</updated>
     <author>
         <name>Creemos en la Red</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="http://creemosenlared.com/tercera-actividad-de-creemos-en-la-red-2020/"/>
         <id>http://creemosenlared.com/tercera-actividad-de-creemos-en-la-red-2020/</id>
 
-        <updated>2020-04-19T19:15:47+02:00</updated>
+        <updated>2020-04-20T11:21:53+02:00</updated>
             <summary>
                 <![CDATA[
                     Llego el día, vamos a empezar a escribir código HTML! Para concentrarnos&hellip;
@@ -37,6 +37,12 @@
 <p>En el siguiente video muestro algunas de las características útiles del editor de código para facilitarnos el trabajo:</p>
 <p> </p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_uBSEHg5pTU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<p>Un video que explica en detalle las partes de un tag HTML:</p>
+<p> </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hKfSQXzz0_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<p>Un video que explica en detalle las formas de agregar espacio fuera (margen, margin) y dentro (relleno, padding) de un tag:</p>
+<p> </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_3ZGRlX9KKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
 <p>Felicitaciones! al terminar esta actividad ya vas a estar usando el lenguaje y editor que vas a usar de ahora en mas para hacer paginas web :)</p>
             ]]>
         </content>
