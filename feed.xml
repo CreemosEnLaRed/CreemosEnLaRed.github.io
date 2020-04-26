@@ -3,12 +3,87 @@
     <title>Creemos en la Red</title>
     <link href="http://creemosenlared.com/feed.xml" rel="self" />
     <link href="http://creemosenlared.com" />
-    <updated>2020-04-20T11:21:59+02:00</updated>
+    <updated>2020-04-26T12:39:44+02:00</updated>
     <author>
         <name>Creemos en la Red</name>
     </author>
     <id>http://creemosenlared.com</id>
 
+    <entry>
+        <title>Practicando Tags HTML con Anki</title>
+        <author>
+            <name>Creemos en la Red</name>
+        </author>
+        <link href="http://creemosenlared.com/practicando-tags-html-con-anki/"/>
+        <id>http://creemosenlared.com/practicando-tags-html-con-anki/</id>
+
+        <updated>2020-04-26T12:39:38+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Una de las partes mas importantes de programar HTML es acordarse que&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Una de las partes mas importantes de programar HTML es acordarse que tag y atributos necesitamos cuando queremos hacer algo en particular.<br><br>Esto se logra con practica, pero no siempre tenemos el tiempo, la inspiración o una computadora a mano para practicar. Para esos momentos existen herramientas como Anki, que nos permiten practicar con una técnica llamada <a href="https://es.wikipedia.org/wiki/Repaso_espaciado" target="_blank" rel="noopener noreferrer">Repaso Espaciado</a> el cual nos presenta con una idea o consigna y tenemos que intentar recordar la respuesta, luego de un tiempo podemos ver la respuesta correcta e indicar (honestamente ;) cuan fácil/difícil nos fue recordar la respuesta, segun la respuesta la misma pregunta nos va a aparecer de nuevo mas pronto o mas tarde, con la repetición espaciada podemos mejorar nuestra memoria de muchas cosas. En este caso lo vamos a usar para aprender los tags HTML en cualquier contexto, ya no hay excusa!</p>
+<p><br>La herramienta que vamos a usar se llama Anki y esta disponible para windows, mac, linux, android e iOS, así que no hay excusa, HTML al alcance de la mano en donde estés :)</p>
+<p><br>Acá voy a mostrar instrucciones de como instalarlo en android ya que es mas practico tenerlo en el teléfono, para iOS debería ser similar y para el resto ver las instrucciones en la sección de descarga de la pagina https://apps.ankiweb.net/</p>
+<p>En android primero vayan al app store (Play Store) y busquen "AnkiDroid", deberían encontrar algo similar a esto:</p>
+<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/Screenshot_20200426_121555.png" alt="Resultado de Buscar AnkiDroid en el Play Store" width="734" height="584">
+<figcaption >Resultado de buscar AnkiDroid en el Play Store</figcaption>
+</figure>
+<p><span style="font-size: inherit;">Seleccionen la opción de instalar, una vez instalada al abrirla se va a ver algo así:</span></p>
+<p>Hagan click en la opción "Get Shared Decks"</p>
+<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-1.jpg" alt="Pagina principal de Anki" width="1080" height="2160">
+<figcaption >Pagina principal, seleccionar "Get shared decks"</figcaption>
+</figure>
+<p> </p>
+<p>En la siguiente pantalla buscar "HTML básico" y seleccionar el botón "Search"</p>
+<p> </p>
+<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-2.jpg" alt="Buscar &quot;HTML basico&quot;" width="1080" height="2160">
+<figcaption >Buscar "HTML básico" y hacer click en el botón "Search"</figcaption>
+</figure>
+<p> </p>
+<p>Debería aparecer al menos un resultado, seleccionen el resultado que aparezca</p>
+<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-3.jpg" alt="Resultado de busqueda" width="1080" height="2160">
+<figcaption >Resultado de búsqueda, seleccionar la opción "HTML Basico"</figcaption>
+</figure>
+<p> </p>
+Por si en el futuro aparece mas de una opción, acá hay una vista previa del nuestro:
+<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-4.jpg" alt="Vista previa de las tarjetas" width="1080" height="2160">
+<figcaption >Vista previa de las tarjetas</figcaption>
+</figure>
+<p> </p>
+Vayan hasta la parte de abajo de esa pantalla y seleccionen el botón "Download"
+<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-5.jpg" alt="Seleccionar boton &quot;Download&quot;" width="1080" height="2160">
+<figcaption >Seleccionar botón "Download"</figcaption>
+</figure>
+<p> </p>
+Una vez descargado seleccionen la opcion "ADD"
+<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-6.jpg" alt="Seleccionar la opcion &quot;ADD&quot;" width="1080" height="2160">
+<figcaption >Seleccionar la opción "ADD"</figcaption>
+</figure>
+<p> </p>
+Luego seleccionar la opción "OK"
+<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-7.jpg" alt="seleccionar la opcion &quot;OK&quot;" width="1080" height="2160">
+<figcaption >seleccionar la opción "OK"</figcaption>
+</figure>
+<p>En la pantalla principal ahora deberían poder ver el grupo te tarjetas, selecciónenla para empezar a practicar</p>
+<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-8.jpg" alt="Seleccionar &quot;HTML Basico&quot; para practicar" width="1080" height="2160">
+<figcaption >Seleccionar "HTML Basico" para practicar</figcaption>
+</figure>
+<p>Cuando empiecen su sesión de practica les va a mostrar la descripción de un tag, intenten recordar cual es el tag o atributo, cuando estén segures o no puedan recordarlo seleccionen el botón "Show Answer"</p>
+<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-9.jpg" alt="Seleccionar el boton &quot;Show Answer&quot; para ver la respuesta" width="1080" height="2160">
+<figcaption >Seleccionar el botón "Show Answer" para ver la respuesta</figcaption>
+</figure>
+<p>Al ver la respuesta fíjense si acertaron o si no se la acordaban intenten repetirla mentalmente para recordarla, seleccionen cuan difícil o fácil fue recordarla con las tres opciones abajo, según cual seleccionen es cuanto va a tardar en mostrarles esa tarjeta de nuevo, honestidad ante todo :)</p>
+<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-10.jpg" alt="Seleccionar cuan dificil o facil fue recordar la respuesta" width="1080" height="2160">
+<figcaption >Seleccionar cuan difícil o fácil fue recordar la respuesta</figcaption>
+</figure>
+<p>Continúen hasta que les de el tiempo o las ganas o anki decida que es suficiente por hoy, usen sus tiempos libres o tiempos de aburrimiento para practicar un par de tarjetas.<br><br>Esta herramienta sirve para practicar cualquier cosa, busquen otros sets de tarjetas para sus temas de interés, pero después de practicar las de HTML :P</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Tercera Actividad de Creemos en la Red 2020!</title>
         <author>
