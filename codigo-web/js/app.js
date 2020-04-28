@@ -1,5 +1,5 @@
 //@format
-import {lintHTML, DEFAULT_RULES} from './linter.js';
+import {lintHTML, translateMsgs, DEFAULT_RULES} from './linter.js';
 /*globals monaco*/
 
 function main(editor, models) {
@@ -22,6 +22,7 @@ function main(editor, models) {
   editor.onDidChangeModelContent(_e => updateResult(editor, models, true));
   updateResult(editor, models, false);
   window.setInterval(() => lint(models.html), 1000);
+  translateMsgs();
 }
 
 function byId(id) {
