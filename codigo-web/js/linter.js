@@ -141,7 +141,7 @@ const DEFAULT_RULES = {
         return (
           'Los tags deben tener un tag de apertura y cierre correspondiente, falta: ' +
           values.arrTags.join('') +
-          ', no se encontro tag de apertura ' +
+          ', tag de apertura ' +
           values.lastEvent.raw +
           ' en linea ' +
           values.lastEvent.line +

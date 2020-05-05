@@ -3,12 +3,41 @@
     <title>Creemos en la Red</title>
     <link href="http://creemosenlared.com/feed.xml" rel="self" />
     <link href="http://creemosenlared.com" />
-    <updated>2020-04-26T12:39:44+02:00</updated>
+    <updated>2020-05-05T23:22:09+02:00</updated>
     <author>
         <name>Creemos en la Red</name>
     </author>
     <id>http://creemosenlared.com</id>
 
+    <entry>
+        <title>Cuarta Actividad de Creemos en la Red 2020!</title>
+        <author>
+            <name>Creemos en la Red</name>
+        </author>
+        <link href="http://creemosenlared.com/cuarta-actividad-de-creemos-en-la-red-2020/"/>
+        <id>http://creemosenlared.com/cuarta-actividad-de-creemos-en-la-red-2020/</id>
+
+        <updated>2020-05-05T23:21:57+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Seguimos avanzando con HTML, esta actividad va a introducir una serie de&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Seguimos avanzando con HTML, esta actividad va a introducir una serie de tags nuevos que nos permiten mostrar datos en formato tabular con mucha flexibilidad.<br><br>No solo son muy útiles para muchos casos sino que nos van a permitir ejercitar nuestra capacidad de escribir código HTML bastante "anidado" (tags dentro de tags) intentando evitar errores y aprendiendo a encontrarlos en el inevitable caso de que nos equivoquemos.<br><br>La actividad va a ser muy similar a la anterior, pero con tags nuevos, el resultado se va a ver similar a lo siguiente:</p>
+<p><img class="post__image" src="http://creemosenlared.com/media/posts/6/Screenshot_20200505_231254.png" alt="" width="629" height="391"></p>
+<p><img class="post__image" src="http://creemosenlared.com/media/posts/6/Screenshot_20200505_231315.png" alt="" width="627" height="647"></p>
+<p>La actividad consiste en transcribir los ejemplos del siguiente video en <a href="http://creemosenlared.com/codigo-web/">http://creemosenlared.com/codigo-web/</a> :</p>
+<p> </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kiIIbnsnpJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<p>Luego de completarlo pegarlo en un archivo llamado index.html en una nueva carpeta llamada actividad-4 (pueden usar otro nombre si quieren) y entregarlo llenando la plantilla "Entrega de Actividad 4" en <a href="https://github.com/CreemosEnLaRed/entregas/issues">https://github.com/CreemosEnLaRed/entregas/issues</a></p>
+<p>Otra parte de la actividad pero que no vamos a controlar pero esperamos que la hagan es practicar los tags HTML en la aplicación Anki siguiendo las instrucciones del post anterior: <a href="http://creemosenlared.com/practicando-tags-html-con-anki/">http://creemosenlared.com/practicando-tags-html-con-anki/</a><br><br>Para les impacientes, hice un video de introducción al lenguaje CSS, el cual vamos a estar aprendiendo en las siguientes actividades, este video es opcional y es una vista por arriba del lenguaje, no se preocupen si no entienden cosas, la idea es simplemente mostrarlo con varios ejemplos para que se hagan una idea de como es:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/_v_lxDo-oyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Esperamos sus entregas!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Practicando Tags HTML con Anki</title>
         <author>
@@ -192,7 +221,7 @@ Luego seleccionar la opción "OK"
         <link href="http://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/"/>
         <id>http://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/</id>
 
-        <updated>2020-03-11T13:31:59+01:00</updated>
+        <updated>2020-05-05T23:22:02+02:00</updated>
             <summary>
                 <![CDATA[
                     Hola! Felicitaciones a les participantes de la tercera edición de este curso,&hellip;
