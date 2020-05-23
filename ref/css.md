@@ -183,4 +183,3 @@ Herramienta para ver valores de ejemplo: https://mothereffinghsl.com/
 * border-radius
 * box-shadow
 * text-shadow
-* 
