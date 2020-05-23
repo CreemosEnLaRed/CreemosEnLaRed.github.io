@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Colores</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <style>
+.color-example{width:100%;border: 1px solid #333;height:2em;margin-bottom:1em;}
+    </style>
+  </head>
+
+  <body class="p-3">
+    <div id="app">
+      <h1>Colores</h1>
+      <h2>RGB: Red Green Blue</h2>
+      <ul>
+        <li class="red">Red</li>
+        <li class="green">Green</li>
+        <li class="blue">Blue</li>
+      </ul>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend w-25">
+          <span class="input-group-text w-100">Red</span>
+        </div>
+        <input class="w-75" type="range" v-model="red" min="0" max="255" step="1">
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend w-25">
+          <span class="input-group-text w-100">Green</span>
+        </div>
+        <input class="w-75" type="range" v-model="green" min="0" max="255" step="1">
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend w-25">
+          <span class="input-group-text w-100">Blue</span>
+        </div>
+        <input class="w-75" type="range" v-model="blue" min="0" max="255" step="1">
+      </div>
+
+      <p class="color-value">{{ colorRGB }}</p>
+      <div class="color-example" v-bind:style="{backgroundColor: colorRGB}">
+      </div>
+
+      <h2 style="hsl(255, 1.0">HSL: Hue Saturation Lightness</h2>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend w-25">
+          <span class="input-group-text w-100">Hue</span>
+        </div>
+        <input class="w-75" type="range" v-model="hue" min="0" max="359" step="1">
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend w-25">
+          <span class="input-group-text w-100">Saturation</span>
+        </div>
+        <input class="w-75" v-model="saturation" type="range" min="0" max="100" step="1">
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend w-25">
+          <span class="input-group-text w-100">Lightness</span>
+        </div>
+        <input class="w-75" v-model="lightness" type="range" min="0" max="100" step="1">
+      </div>
+
+      <p class="color-value">{{ colorHSL }}</p>
+      <div class="color-example" v-bind:style="{backgroundColor: colorHSL}">
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+
+</html>
