@@ -120,3 +120,50 @@ va a tener va a depender de cuantos pixeles tiene la pantalla.
 
 Al haber gran variedad de resoluciones no se recomienda usar pixeles como unidad
 de espacio sino otras que se adaptan a la resolucion de la pantalla.
+
+## Formatos de Color
+
+### RGB
+
+[Articulo de Wikipedia](https://es.wikipedia.org/wiki/RGB)
+
+Formato `#RRGGBB` donde `R`, `G` y `B` son un caracter en minuscula o mayuscula
+del `0` al `9` y de la `a` a la `f`, esta es la [notacion hexadecimal](https://es.wikipedia.org/wiki/Sistema\_hexadecimal) que nos
+permite contar del 0 al 15 con un solo caracter:
+
+* 0: 0
+* 1: 1
+* ...
+* 9: 9
+* a: 10
+* b: 11
+* c: 12
+* d: 13
+* e: 14
+* f: 15
+
+Como tenemos dos caracteres por color, podemos expresar 255 niveles de intensidad
+por color:
+
+* 00: 0
+* ...
+* 0f: 15
+* 10: 16
+* 11: 17
+* 1f: 31
+* ff: 255
+
+Ejemplos:
+
+* Negro: #000000
+* Blanco: #ffffff
+* Gris: #888888
+* Rojo: #ff0000
+* Verde: #00ff00
+* Azul: #0000ff
+
+### HSL
+
+[Articulo de Wikipedia](https://es.wikipedia.org/wiki/Modelo\_de\_color\_HSL)
+
+Herramienta para ver valores de ejemplo: https://mothereffinghsl.com/
