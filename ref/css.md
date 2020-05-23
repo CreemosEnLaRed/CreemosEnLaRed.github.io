@@ -51,17 +51,18 @@ ejemplos:
 p, .importante, #titulo-principal{margin:1em}
 ```
 
-### Hijo Directo
+### Descendiente directo
 
-Selecciona los tags que cumplen con el selector a la derecha del `>` cuyos
-padres cumplen con el selector del lado derecho, puede haber espacios antes y
+Selecciona los tags que cumplen con el selector a la derecha del `>` cuyos tags
+"ascendentes" cumplen con el selector del lado izquierdo, puede haber espacios
+antes y
 despues del `>`, no tiene efecto, ejemplos:
 
 ```css
 .titulo > p{ /* todos los parrafos (tag p) cuyo padre tiene la clase titulo aplican */ }
 ```
 
-### Hijos a cualquier nivel de profundidad
+### Descendiente a cualquier nivel
 
 Selecciona los tags que cumplen con el selector a la derecha del espacio que
 tienen un tag que aplica el lado izquierdo a cualquier nivel, en este caso
@@ -167,3 +168,19 @@ Ejemplos:
 [Articulo de Wikipedia](https://es.wikipedia.org/wiki/Modelo\_de\_color\_HSL)
 
 Herramienta para ver valores de ejemplo: https://mothereffinghsl.com/
+
+### Propiedades mas usadas
+
+* color
+* background-color
+* margin: margin-top margin-right margin-bottom margin-left
+* padding: padding-top padding-right padding-bottom padding-left
+* border: border-width border-style border-color
+* width
+* font: font-style font-variant font-weight font-stretch font-size line-height font-family
+* text-decoration
+* text-align
+* border-radius
+* box-shadow
+* text-shadow
+* 
