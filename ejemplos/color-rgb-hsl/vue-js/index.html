@@ -25,53 +25,67 @@
         <div class="input-group-prepend w-25">
           <span class="input-group-text w-100">Red</span>
         </div>
-        <input class="w-75" type="range" v-model="red" min="0" max="255" step="1">
+        <input class="w-75" type="range" v-model.number="red" min="0" max="255" step="1">
       </div>
 
       <div class="input-group mb-3">
         <div class="input-group-prepend w-25">
           <span class="input-group-text w-100">Green</span>
         </div>
-        <input class="w-75" type="range" v-model="green" min="0" max="255" step="1">
+        <input class="w-75" type="range" v-model.number="green" min="0" max="255" step="1">
       </div>
 
       <div class="input-group mb-3">
         <div class="input-group-prepend w-25">
           <span class="input-group-text w-100">Blue</span>
         </div>
-        <input class="w-75" type="range" v-model="blue" min="0" max="255" step="1">
+        <input class="w-75" type="range" v-model.number="blue" min="0" max="255" step="1">
       </div>
 
       <p class="color-value">{{ colorRGB }}</p>
+      <p class="color-value">{{ colorRGBHex }}</p>
       <div class="color-example" v-bind:style="{backgroundColor: colorRGB}">
       </div>
 
-      <h2 style="hsl(255, 1.0">HSL: Hue Saturation Lightness</h2>
+      <h2>HSL: Hue Saturation Lightness</h2>
 
       <div class="input-group mb-3">
         <div class="input-group-prepend w-25">
           <span class="input-group-text w-100">Hue</span>
         </div>
-        <input class="w-75" type="range" v-model="hue" min="0" max="359" step="1">
+        <input class="w-75" type="range" v-model.number="hue" min="0" max="359" step="1">
       </div>
 
       <div class="input-group mb-3">
         <div class="input-group-prepend w-25">
           <span class="input-group-text w-100">Saturation</span>
         </div>
-        <input class="w-75" v-model="saturation" type="range" min="0" max="100" step="1">
+        <input class="w-75" v-model.number="saturation" type="range" min="0" max="100" step="1">
       </div>
 
       <div class="input-group mb-3">
         <div class="input-group-prepend w-25">
           <span class="input-group-text w-100">Lightness</span>
         </div>
-        <input class="w-75" v-model="lightness" type="range" min="0" max="100" step="1">
+        <input class="w-75" v-model.number="lightness" type="range" min="0" max="100" step="1">
       </div>
 
       <p class="color-value">{{ colorHSL }}</p>
       <div class="color-example" v-bind:style="{backgroundColor: colorHSL}">
       </div>
+
+      <h2>Named Colors</h2>
+
+      <table class="table table-bordered table-hover table-stripped">
+          <thead><tr><th>Nombre</th><th>Valor</th><th>Color</th></thead>
+          <tbody>
+              <tr v-for="(color, name) in colors">
+                  <td>{{name}}</td>
+                  <td>{{color}}</td>
+                  <td v-bind:style="{backgroundColor: color, color: 'white'}">{{color}}</td>
+              </tr>
+          </tbody>
+      </table>
     </div>
     <script src="app.js"></script>
   </body>
