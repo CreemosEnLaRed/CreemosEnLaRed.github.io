@@ -20,9 +20,9 @@ function main() {
 			colorRGBHex: function () {
 				return (
 					'#' +
-					this.red.toString(16) +
-					this.green.toString(16) +
-					this.blue.toString(16)
+					zeroPad(this.red.toString(16)) +
+					zeroPad(this.green.toString(16)) +
+					zeroPad(this.blue.toString(16))
 				).toUpperCase();
 			},
 			colorHSL: function () {
@@ -38,6 +38,10 @@ function main() {
 			}
 		}
 	});
+}
+
+function zeroPad(s) {
+  return s.length === 1 ? '0' + s : s;
 }
 
 const colors = {
