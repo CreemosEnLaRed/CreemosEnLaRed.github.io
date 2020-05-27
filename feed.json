@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "http://creemosenlared.com/quinta-actividad-de-creemos-en-la-red-2020/",
+            "url": "http://creemosenlared.com/quinta-actividad-de-creemos-en-la-red-2020/",
+            "title": "Quinta Actividad de Creemos en la Red 2020! ",
+            "summary": "Llego el momento de conocer nuestro segundo lenguaje: CSS. Este lenguaje se&hellip;",
+            "content_html": "<p>Llego el momento de conocer nuestro segundo lenguaje: CSS.<br><br>Este lenguaje se usa para definir el aspecto y la presentación de nuestras paginas.</p>\n<p>Hasta ahora lo usamos indirectamente usando el CSS definido por bootstrap.<br><br>Ahora vamos a empezar a aprender como hace bootstrap para definir esas cosas que usamos.<br><br>La actividad consiste en ver el video de Introducción Selectores CSS y transcribir el HTML y CSS que se muestra. La entrega es del código que esta al final del video pero les recomendamos que prueben todos los pasos intermedios para irse acostumbrando a escribirlo, a su sintaxis e ir identificando cuales son los errores mas comunes que cometen al escribirlo.<br><br>El video a seguir es el siguiente: </p>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/w2qGs7SZUGI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe>\n<p>El siguiente video explica en detalle los distintos formatos para especificar colores en CSS: </p>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/JGLViRCuBcE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe>\n<p>El siguiente video explica en detalle 3 propiedades muy importantes: margen, relleno y borde: </p>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2IhsXVAuCd0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe>\n<p>Luego de completarlo pegarlo en dos archivos llamados: index.html y style.css en una nueva carpeta llamada actividad-5 y entregarlo llenando la plantilla \"Entrega de Actividad 5\" en <a href=\"https://github.com/CreemosEnLaRed/entregas/issues\">https://github.com/CreemosEnLaRed/entregas/issues</a></p>\n<p><strong>Importante</strong>: para que en github pages se vea el estilo de style.css tienen que agregar la linea:</p>\n<div>\n<pre>&lt;link rel=\"stylesheet\" href=\"style.css\"/&gt;</pre>\n</div>\n<p>En el &lt;head&gt; del index.html como se muestra en este video:</p>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sH_eXG6s3DI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe>\n<p>Por ultimo, para ir aprendiendo las distintas propiedades y formatos de CSS cree una serie de tarjetas de Anki: <a href=\"http://creemosenlared.com/anki/CSS%20Basico.apkg\">http://creemosenlared.com/anki/CSS%20Basico.apkg</a></p>\n<p>Las pueden descargar de ese link e importar en su aplicación de Anki preferida.</p>",
+            "author": {
+                "name": "Creemos en la Red"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-05-27T11:33:25+02:00",
+            "date_modified": "2020-05-27T11:33:25+02:00"
+        },
+        {
             "id": "http://creemosenlared.com/cuarta-actividad-de-creemos-en-la-red-2020/",
             "url": "http://creemosenlared.com/cuarta-actividad-de-creemos-en-la-red-2020/",
             "title": "Cuarta Actividad de Creemos en la Red 2020!",
