@@ -19,10 +19,12 @@ const defaultHTMLCode = `<!doctype html>
   <body>
     <h1>Mi Pagina</h1>
   </body>
-</html>`;
+</html>`,
+  defaultCSSCode = 'html,body{height:100%}';
+
 require(['vs/editor/editor.main'], function () {
   const modelHTML = monaco.editor.createModel(defaultHTMLCode, 'html'),
-    modelCSS = monaco.editor.createModel('html,body{height:100%}', 'css'),
+    modelCSS = monaco.editor.createModel(defaultCSSCode, 'css'),
     models = {html: modelHTML, css: modelCSS},
     node = document.getElementById('editor'),
     editor = monaco.editor.create(node, {
@@ -30,5 +32,8 @@ require(['vs/editor/editor.main'], function () {
     });
 
   editor.setModel(modelHTML);
-  window.appOnEditorLoaded(editor, node, models);
+  window.appOnEditorLoaded(editor, node, models, {
+    defaultHTMLCode,
+    defaultCSSCode
+  });
 });

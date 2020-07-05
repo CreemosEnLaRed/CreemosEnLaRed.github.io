@@ -2,11 +2,14 @@
 import {lintHTML, translateMsgs, DEFAULT_RULES} from './linter.js';
 /*globals monaco*/
 
-function main(editor, models) {
+function main(editor, models, {defaultHTMLCode, defaultCSSCode}) {
   const tabHTML = byId('tabHTML'),
     tabCSS = byId('tabCSS'),
+    tabOthers = byId('tabOthers'),
     tabHTMLLink = byId('tabHTMLLink'),
-    tabCSSLink = byId('tabCSSLink');
+    tabCSSLink = byId('tabCSSLink'),
+    tabOthersLink = byId('tabOthersLink'),
+    btnRestoreDefaults = byId('btnRestoreDefaults');
 
   models.html.updateOptions({tabSize: 2});
   models.css.updateOptions({tabSize: 2});
@@ -16,6 +19,16 @@ function main(editor, models) {
   });
   tabHTML.addEventListener('click', _e => {
     setModelAndSetActiveTab(editor, models.html, tabHTMLLink);
+  });
+  tabOthers.addEventListener('click', _e => {
+    setActiveTab(tabOthersLink);
+    showPanel('others');
+  });
+
+  btnRestoreDefaults.addEventListener('click', _e => {
+    models.html.setValue(defaultHTMLCode);
+    models.css.setValue(defaultCSSCode);
+    updateResult(editor, models, true);
   });
 
   loadModelsCode(models);
@@ -29,12 +42,22 @@ function byId(id) {
   return document.getElementById(id);
 }
 
-function setModelAndSetActiveTab(editor, model, tabNode) {
+function setActiveTab(tabNode) {
   document
     .querySelectorAll('.editor-tabs .nav-link')
     .forEach(node => node.classList.remove('active'));
-  editor.setModel(model);
   tabNode.classList.add('active');
+}
+function showPanel(panelId) {
+  document
+    .querySelectorAll('.panel')
+    .forEach(node => (node.style.display = 'none'));
+  document.getElementById(panelId).style.display = 'block';
+}
+function setModelAndSetActiveTab(editor, model, tabNode) {
+  showPanel('editor');
+  editor.setModel(model);
+  setActiveTab(tabNode);
 }
 
 function lintTypeToSeverity(_type) {
@@ -116,6 +139,6 @@ function loadModelsCode(models) {
   }
 }
 
-window.appOnEditorLoaded = function (editor, _node, models) {
-  main(editor, models);
+window.appOnEditorLoaded = function (editor, _node, models, info) {
+  main(editor, models, info);
 };

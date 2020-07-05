@@ -7,7 +7,7 @@
 <style>
 html,body{height:100%}
 body{overflow:hidden}
-#editor{height:90vh}
+.panel{height:90vh}
 </style>
   </head>
   <body class="m-2">
@@ -20,13 +20,19 @@ body{overflow:hidden}
           <li class="nav-item" id="tabCSS">
             <a class="nav-link" id="tabCSSLink" href="#">CSS</a>
           </li>
+          <li class="nav-item" id="tabOthers">
+            <a class="nav-link" id="tabOthersLink" href="#">Avanzado</a>
+          </li>
         </ul>
 
-        <div id="editor">
+        <div id="editor" class="panel">
           <script type="module" src="js/app.js"></script>
           <script src="../bloques-web/lib/vs/loader.js"></script>
           <script src="./js/monacoloader.js"></script>
           <script src="./lib/htmlhint.js"></script>
+        </div>
+        <div id="others" class="panel p-3" style="display:none">
+            <button class="btn btn-danger" id="btnRestoreDefaults">Restaurar Conteniedo por Defecto (Peligro: Borra el cotenido actual!)</button>
         </div>
       </div>
       <div class="col">
