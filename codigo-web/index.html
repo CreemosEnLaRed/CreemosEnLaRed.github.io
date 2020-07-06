@@ -12,7 +12,7 @@ body{overflow:hidden}
   </head>
   <body class="m-2">
     <div class="row">
-      <div class="col">
+      <div class="col" id="editorCol">
         <ul class="nav nav-tabs editor-tabs">
           <li class="nav-item" id="tabHTML">
             <a class="nav-link active" id="tabHTMLLink" href="#">HTML</a>
@@ -22,6 +22,9 @@ body{overflow:hidden}
           </li>
           <li class="nav-item" id="tabOthers">
             <a class="nav-link" id="tabOthersLink" href="#">Avanzado</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-light btn-sm mt-1" id="btnHideEditor" href="#">Esconder Editor</a>
           </li>
         </ul>
 
@@ -35,8 +38,9 @@ body{overflow:hidden}
             <button class="btn btn-danger" id="btnRestoreDefaults">Restaurar Conteniedo por Defecto (Peligro: Borra el contenido actual!)</button>
         </div>
       </div>
-      <div class="col">
-        <iframe id="result" class="w-100 h-100" style="border: 1px solid #cccccc"></iframe>
+      <div class="col" id="resultCol">
+          <a class="btn btn-primary btn-sm text-white float-right p-1 mb-1" id="btnShowEditor" style="display:none">Mostrar Editor</a>
+        <iframe id="result" class="w-100" style="border: 1px solid #cccccc;height:95vh"></iframe>
       </div>
   </body>
 </html>

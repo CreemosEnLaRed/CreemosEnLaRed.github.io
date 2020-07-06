@@ -9,6 +9,8 @@ function main(editor, models, {defaultHTMLCode, defaultCSSCode}) {
     tabHTMLLink = byId('tabHTMLLink'),
     tabCSSLink = byId('tabCSSLink'),
     tabOthersLink = byId('tabOthersLink'),
+    btnHideEditor = byId('btnHideEditor'),
+    btnShowEditor = byId('btnShowEditor'),
     btnRestoreDefaults = byId('btnRestoreDefaults');
 
   models.html.updateOptions({tabSize: 2});
@@ -23,6 +25,14 @@ function main(editor, models, {defaultHTMLCode, defaultCSSCode}) {
   tabOthers.addEventListener('click', _e => {
     setActiveTab(tabOthersLink);
     showPanel('others');
+  });
+  btnHideEditor.addEventListener('click', _e => {
+    byId('editorCol').style.display = 'none';
+    btnShowEditor.style.display = 'inline-block';
+  });
+  btnShowEditor.addEventListener('click', _e => {
+    byId('editorCol').style.display = 'block';
+    btnShowEditor.style.display = 'none';
   });
 
   btnRestoreDefaults.addEventListener('click', _e => {
