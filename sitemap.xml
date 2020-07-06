@@ -1,110 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://creemosenlared.com/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://creemosenlared.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>http://creemosenlared.com/</loc>
+<loc>https://creemosenlared.com/</loc>
 </url>
 <url>
-<loc>http://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/</loc>
+<loc>https://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/</loc>
 <lastmod>2020-02-24T10:33:11+01:00</lastmod>
 </url>
 <url>
-<loc>http://creemosenlared.com/cuarta-actividad-de-creemos-en-la-red-2020/</loc>
+<loc>https://creemosenlared.com/cuarta-actividad-de-creemos-en-la-red-2020/</loc>
 <lastmod>2020-05-05T23:21:57+02:00</lastmod>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/6/Screenshot_20200505_231254.png</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/6/Screenshot_20200505_231254.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/6/Screenshot_20200505_231315.png</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/6/Screenshot_20200505_231315.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>http://creemosenlared.com/practicando-tags-html-con-anki/</loc>
+<loc>https://creemosenlared.com/practicando-tags-html-con-anki/</loc>
 <lastmod>2020-04-26T12:39:38+02:00</lastmod>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/5/Screenshot_20200426_121555.png</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/5/Screenshot_20200426_121555.png</image:loc>
 <image:title><![CDATA[Resultado de Buscar AnkiDroid en el Play Store]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/5/anki-1.jpg</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/5/anki-1.jpg</image:loc>
 <image:title><![CDATA[Pagina principal de Anki]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/5/anki-2.jpg</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/5/anki-2.jpg</image:loc>
 <image:title><![CDATA[Buscar &quot;HTML basico&quot;]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/5/anki-3.jpg</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/5/anki-3.jpg</image:loc>
 <image:title><![CDATA[Resultado de busqueda]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/5/anki-4.jpg</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/5/anki-4.jpg</image:loc>
 <image:title><![CDATA[Vista previa de las tarjetas]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/5/anki-5.jpg</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/5/anki-5.jpg</image:loc>
 <image:title><![CDATA[Seleccionar boton &quot;Download&quot;]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/5/anki-6.jpg</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/5/anki-6.jpg</image:loc>
 <image:title><![CDATA[Seleccionar la opcion &quot;ADD&quot;]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/5/anki-7.jpg</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/5/anki-7.jpg</image:loc>
 <image:title><![CDATA[seleccionar la opcion &quot;OK&quot;]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/5/anki-8.jpg</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/5/anki-8.jpg</image:loc>
 <image:title><![CDATA[Seleccionar &quot;HTML Basico&quot; para practicar]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/5/anki-9.jpg</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/5/anki-9.jpg</image:loc>
 <image:title><![CDATA[Seleccionar el boton &quot;Show Answer&quot; para ver la respuesta]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/5/anki-10.jpg</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/5/anki-10.jpg</image:loc>
 <image:title><![CDATA[Seleccionar cuan dificil o facil fue recordar la respuesta]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>http://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/</loc>
+<loc>https://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/</loc>
 <lastmod>2020-05-05T23:22:02+02:00</lastmod>
 </url>
 <url>
-<loc>http://creemosenlared.com/quinta-actividad-de-creemos-en-la-red-2020/</loc>
-<lastmod>2020-05-27T11:33:25+02:00</lastmod>
+<loc>https://creemosenlared.com/quinta-actividad-de-creemos-en-la-red-2020/</loc>
+<lastmod>2020-07-06T20:15:35+02:00</lastmod>
 </url>
 <url>
-<loc>http://creemosenlared.com/segunda-actividad-de-creemos-en-la-red-2020/</loc>
+<loc>https://creemosenlared.com/segunda-actividad-de-creemos-en-la-red-2020/</loc>
 <lastmod>2020-04-09T11:00:41+02:00</lastmod>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/3/tipo-bloques.png</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/3/tipo-bloques.png</image:loc>
 <image:title><![CDATA[Tipos de Bloques]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/3/seccion-texto.png</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/3/seccion-texto.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/3/seccion-otros.png</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/3/seccion-otros.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/3/seccion-lista.png</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/3/seccion-lista.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>http://creemosenlared.com/tercera-actividad-de-creemos-en-la-red-2020/</loc>
+<loc>https://creemosenlared.com/sexta-actividad-de-creemos-en-la-red-2020/</loc>
+<lastmod>2020-07-06T20:35:53+02:00</lastmod>
+</url>
+<url>
+<loc>https://creemosenlared.com/tercera-actividad-de-creemos-en-la-red-2020/</loc>
 <lastmod>2020-04-20T11:21:53+02:00</lastmod>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/4/celr-consigna-3-ui.png</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/4/celr-consigna-3-ui.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
-<image:loc>http://creemosenlared.com/media/posts/4/celr-consigna-3-codigo.png</image:loc>
+<image:loc>https://creemosenlared.com/media/posts/4/celr-consigna-3-codigo.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>

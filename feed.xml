@@ -1,23 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Creemos en la Red</title>
-    <link href="http://creemosenlared.com/feed.xml" rel="self" />
-    <link href="http://creemosenlared.com" />
-    <updated>2020-05-27T11:33:32+02:00</updated>
+    <link href="https://creemosenlared.com/feed.xml" rel="self" />
+    <link href="https://creemosenlared.com" />
+    <updated>1970-01-01T01:00:00+01:00</updated>
     <author>
         <name>Creemos en la Red</name>
     </author>
-    <id>http://creemosenlared.com</id>
+    <id>https://creemosenlared.com</id>
 
     <entry>
-        <title>Quinta Actividad de Creemos en la Red 2020! </title>
+        <title>Sexta Actividad de Creemos en la Red 2020!</title>
         <author>
             <name>Creemos en la Red</name>
         </author>
-        <link href="http://creemosenlared.com/quinta-actividad-de-creemos-en-la-red-2020/"/>
-        <id>http://creemosenlared.com/quinta-actividad-de-creemos-en-la-red-2020/</id>
+        <link href="https://creemosenlared.com/sexta-actividad-de-creemos-en-la-red-2020/"/>
+        <id>https://creemosenlared.com/sexta-actividad-de-creemos-en-la-red-2020/</id>
 
-        <updated>2020-05-27T11:33:25+02:00</updated>
+        <updated>2020-07-06T20:37:51+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Llego el momento de empezar a integrar todos los conocimientos, el resultado&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Llego el momento de empezar a integrar todos los conocimientos, el resultado de esta actividad es una pagina completa con casi todas las características necesarias para hacer paginas reales, antes de empezar con eso va a ser necesario que aprendamos unos conceptos nuevos:</p>
+<p> </p>
+<h2>Fuentes y propiedades CSS para texto</h2>
+<p><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/xquaLg6p72E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></p>
+<p> </p>
+<h2>Sistema de grilla de bootstrap y flexbox en CSS</h2>
+<p><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/l7MI2Uxq-Mg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></p>
+<p> </p>
+<h2>Consigna de Actividad</h2>
+<p>La actividad consiste en ver los tres videos de este post, hacer la una pagina similar a la que se muestra en el video de abajo, el contenido puede ser de cualquier tipo siempre que:</p>
+<ul>
+<li>Tenga un menú de navegación arriba usando row/col</li>
+<li>Tenga un pie de pagina abajo usando row/col</li>
+<li>Tenga al menos dos filas con al menos dos columnas cada una y que para resoluciones de pantalla chicas se muestre una sola columna</li>
+<li>Use una fuente usando @import con CSS</li>
+<li>Use las propiedades CSS text-shadow y transform</li>
+</ul>
+<p>Se recomienda completar todos los niveles del juego <a href="https://flexboxfroggy.com/#es">https://flexboxfroggy.com/#es</a></p>
+<p>A diferencia de las consignas anteriores, en esta se recomienda que copien y peguen tanto HTML y CSS como quieran, la idea es que se vayan acostumbrando a algo que van a usar muy seguido, que es elegir, copiar, pegar y adaptar código de ejemplo que encuentren en la web.</p>
+<p>La entrega de la consigna se hace en el repositorio <a href="https://github.com/CreemosEnLaRed/entregas/issues/new/choose">https://github.com/CreemosEnLaRed/entregas/issues/new/choose</a> usando la plantilla "Entrega de Actividad 6".</p>
+<p>La fecha limite de entrega es el 20 de Julio a las 24hs</p>
+<p><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/R9C93GoFbxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></p>
+<p>A dejar volar la imaginación!</p>
+<p>PD: sabemos que estamos retrazades con las correcciones, vamos a intentar ponernos al día :)</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Quinta Actividad de Creemos en la Red 2020!</title>
+        <author>
+            <name>Creemos en la Red</name>
+        </author>
+        <link href="https://creemosenlared.com/quinta-actividad-de-creemos-en-la-red-2020/"/>
+        <id>https://creemosenlared.com/quinta-actividad-de-creemos-en-la-red-2020/</id>
+
+        <updated>2020-07-06T20:37:51+02:00</updated>
             <summary>
                 <![CDATA[
                     Llego el momento de conocer nuestro segundo lenguaje: CSS. Este lenguaje se&hellip;
@@ -27,18 +70,18 @@
             <![CDATA[
                 <p>Llego el momento de conocer nuestro segundo lenguaje: CSS.<br><br>Este lenguaje se usa para definir el aspecto y la presentación de nuestras paginas.</p>
 <p>Hasta ahora lo usamos indirectamente usando el CSS definido por bootstrap.<br><br>Ahora vamos a empezar a aprender como hace bootstrap para definir esas cosas que usamos.<br><br>La actividad consiste en ver el video de Introducción Selectores CSS y transcribir el HTML y CSS que se muestra. La entrega es del código que esta al final del video pero les recomendamos que prueben todos los pasos intermedios para irse acostumbrando a escribirlo, a su sintaxis e ir identificando cuales son los errores mas comunes que cometen al escribirlo.<br><br>El video a seguir es el siguiente: </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w2qGs7SZUGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<p><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/w2qGs7SZUGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></p>
 <p>El siguiente video explica en detalle los distintos formatos para especificar colores en CSS: </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JGLViRCuBcE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<p><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/JGLViRCuBcE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></p>
 <p>El siguiente video explica en detalle 3 propiedades muy importantes: margen, relleno y borde: </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2IhsXVAuCd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<p><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/2IhsXVAuCd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></p>
 <p>Luego de completarlo pegarlo en dos archivos llamados: index.html y style.css en una nueva carpeta llamada actividad-5 y entregarlo llenando la plantilla "Entrega de Actividad 5" en <a href="https://github.com/CreemosEnLaRed/entregas/issues">https://github.com/CreemosEnLaRed/entregas/issues</a></p>
 <p><strong>Importante</strong>: para que en github pages se vea el estilo de style.css tienen que agregar la linea:</p>
 <div>
 <pre>&lt;link rel="stylesheet" href="style.css"/&gt;</pre>
 </div>
 <p>En el &lt;head&gt; del index.html como se muestra en este video:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sH_eXG6s3DI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<p><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/sH_eXG6s3DI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></p>
 <p>Por ultimo, para ir aprendiendo las distintas propiedades y formatos de CSS cree una serie de tarjetas de Anki: <a href="http://creemosenlared.com/anki/CSS%20Basico.apkg">http://creemosenlared.com/anki/CSS%20Basico.apkg</a></p>
 <p>Las pueden descargar de ese link e importar en su aplicación de Anki preferida.</p>
             ]]>
@@ -49,10 +92,10 @@
         <author>
             <name>Creemos en la Red</name>
         </author>
-        <link href="http://creemosenlared.com/cuarta-actividad-de-creemos-en-la-red-2020/"/>
-        <id>http://creemosenlared.com/cuarta-actividad-de-creemos-en-la-red-2020/</id>
+        <link href="https://creemosenlared.com/cuarta-actividad-de-creemos-en-la-red-2020/"/>
+        <id>https://creemosenlared.com/cuarta-actividad-de-creemos-en-la-red-2020/</id>
 
-        <updated>2020-05-05T23:21:57+02:00</updated>
+        <updated>2020-07-06T20:37:51+02:00</updated>
             <summary>
                 <![CDATA[
                     Seguimos avanzando con HTML, esta actividad va a introducir una serie de&hellip;
@@ -61,14 +104,14 @@
         <content type="html">
             <![CDATA[
                 <p>Seguimos avanzando con HTML, esta actividad va a introducir una serie de tags nuevos que nos permiten mostrar datos en formato tabular con mucha flexibilidad.<br><br>No solo son muy útiles para muchos casos sino que nos van a permitir ejercitar nuestra capacidad de escribir código HTML bastante "anidado" (tags dentro de tags) intentando evitar errores y aprendiendo a encontrarlos en el inevitable caso de que nos equivoquemos.<br><br>La actividad va a ser muy similar a la anterior, pero con tags nuevos, el resultado se va a ver similar a lo siguiente:</p>
-<p><img class="post__image" src="http://creemosenlared.com/media/posts/6/Screenshot_20200505_231254.png" alt="" width="629" height="391"></p>
-<p><img class="post__image" src="http://creemosenlared.com/media/posts/6/Screenshot_20200505_231315.png" alt="" width="627" height="647"></p>
+<figure class="post__image"><img loading="lazy"  src="https://creemosenlared.com/media/posts/6/Screenshot_20200505_231254.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/6/responsive/Screenshot_20200505_231254-xs.png 300w ,https://creemosenlared.com/media/posts/6/responsive/Screenshot_20200505_231254-sm.png 480w ,https://creemosenlared.com/media/posts/6/responsive/Screenshot_20200505_231254-md.png 768w"  alt="" width="629" height="391"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://creemosenlared.com/media/posts/6/Screenshot_20200505_231315.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/6/responsive/Screenshot_20200505_231315-xs.png 300w ,https://creemosenlared.com/media/posts/6/responsive/Screenshot_20200505_231315-sm.png 480w ,https://creemosenlared.com/media/posts/6/responsive/Screenshot_20200505_231315-md.png 768w"  alt="" width="627" height="647"></figure>
 <p>La actividad consiste en transcribir los ejemplos del siguiente video en <a href="http://creemosenlared.com/codigo-web/">http://creemosenlared.com/codigo-web/</a> :</p>
 <p> </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kiIIbnsnpJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/kiIIbnsnpJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 <p>Luego de completarlo pegarlo en un archivo llamado index.html en una nueva carpeta llamada actividad-4 (pueden usar otro nombre si quieren) y entregarlo llenando la plantilla "Entrega de Actividad 4" en <a href="https://github.com/CreemosEnLaRed/entregas/issues">https://github.com/CreemosEnLaRed/entregas/issues</a></p>
 <p>Otra parte de la actividad pero que no vamos a controlar pero esperamos que la hagan es practicar los tags HTML en la aplicación Anki siguiendo las instrucciones del post anterior: <a href="http://creemosenlared.com/practicando-tags-html-con-anki/">http://creemosenlared.com/practicando-tags-html-con-anki/</a><br><br>Para les impacientes, hice un video de introducción al lenguaje CSS, el cual vamos a estar aprendiendo en las siguientes actividades, este video es opcional y es una vista por arriba del lenguaje, no se preocupen si no entienden cosas, la idea es simplemente mostrarlo con varios ejemplos para que se hagan una idea de como es:</p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/_v_lxDo-oyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/_v_lxDo-oyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></p>
 <p>Esperamos sus entregas!</p>
             ]]>
         </content>
@@ -78,10 +121,10 @@
         <author>
             <name>Creemos en la Red</name>
         </author>
-        <link href="http://creemosenlared.com/practicando-tags-html-con-anki/"/>
-        <id>http://creemosenlared.com/practicando-tags-html-con-anki/</id>
+        <link href="https://creemosenlared.com/practicando-tags-html-con-anki/"/>
+        <id>https://creemosenlared.com/practicando-tags-html-con-anki/</id>
 
-        <updated>2020-04-26T12:39:38+02:00</updated>
+        <updated>2020-07-06T20:37:51+02:00</updated>
             <summary>
                 <![CDATA[
                     Una de las partes mas importantes de programar HTML es acordarse que&hellip;
@@ -93,55 +136,55 @@
 <p><br>La herramienta que vamos a usar se llama Anki y esta disponible para windows, mac, linux, android e iOS, así que no hay excusa, HTML al alcance de la mano en donde estés :)</p>
 <p><br>Acá voy a mostrar instrucciones de como instalarlo en android ya que es mas practico tenerlo en el teléfono, para iOS debería ser similar y para el resto ver las instrucciones en la sección de descarga de la pagina https://apps.ankiweb.net/</p>
 <p>En android primero vayan al app store (Play Store) y busquen "AnkiDroid", deberían encontrar algo similar a esto:</p>
-<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/Screenshot_20200426_121555.png" alt="Resultado de Buscar AnkiDroid en el Play Store" width="734" height="584">
+<figure class="post__image post__image" ><img loading="lazy" src="https://creemosenlared.com/media/posts/5/Screenshot_20200426_121555.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/5/responsive/Screenshot_20200426_121555-xs.png 300w ,https://creemosenlared.com/media/posts/5/responsive/Screenshot_20200426_121555-sm.png 480w ,https://creemosenlared.com/media/posts/5/responsive/Screenshot_20200426_121555-md.png 768w"  alt="Resultado de Buscar AnkiDroid en el Play Store" width="734" height="584">
 <figcaption >Resultado de buscar AnkiDroid en el Play Store</figcaption>
 </figure>
 <p><span style="font-size: inherit;">Seleccionen la opción de instalar, una vez instalada al abrirla se va a ver algo así:</span></p>
 <p>Hagan click en la opción "Get Shared Decks"</p>
-<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-1.jpg" alt="Pagina principal de Anki" width="1080" height="2160">
+<figure class="post__image post__image" ><img loading="lazy" src="https://creemosenlared.com/media/posts/5/anki-1.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/5/responsive/anki-1-xs.jpg 300w ,https://creemosenlared.com/media/posts/5/responsive/anki-1-sm.jpg 480w ,https://creemosenlared.com/media/posts/5/responsive/anki-1-md.jpg 768w"  alt="Pagina principal de Anki" width="1080" height="2160">
 <figcaption >Pagina principal, seleccionar "Get shared decks"</figcaption>
 </figure>
 <p> </p>
 <p>En la siguiente pantalla buscar "HTML básico" y seleccionar el botón "Search"</p>
 <p> </p>
-<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-2.jpg" alt="Buscar &quot;HTML basico&quot;" width="1080" height="2160">
+<figure class="post__image post__image" ><img loading="lazy" src="https://creemosenlared.com/media/posts/5/anki-2.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/5/responsive/anki-2-xs.jpg 300w ,https://creemosenlared.com/media/posts/5/responsive/anki-2-sm.jpg 480w ,https://creemosenlared.com/media/posts/5/responsive/anki-2-md.jpg 768w"  alt="Buscar &quot;HTML basico&quot;" width="1080" height="2160">
 <figcaption >Buscar "HTML básico" y hacer click en el botón "Search"</figcaption>
 </figure>
 <p> </p>
 <p>Debería aparecer al menos un resultado, seleccionen el resultado que aparezca</p>
-<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-3.jpg" alt="Resultado de busqueda" width="1080" height="2160">
+<figure class="post__image post__image" ><img loading="lazy" src="https://creemosenlared.com/media/posts/5/anki-3.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/5/responsive/anki-3-xs.jpg 300w ,https://creemosenlared.com/media/posts/5/responsive/anki-3-sm.jpg 480w ,https://creemosenlared.com/media/posts/5/responsive/anki-3-md.jpg 768w"  alt="Resultado de busqueda" width="1080" height="2160">
 <figcaption >Resultado de búsqueda, seleccionar la opción "HTML Basico"</figcaption>
 </figure>
 <p> </p>
 Por si en el futuro aparece mas de una opción, acá hay una vista previa del nuestro:
-<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-4.jpg" alt="Vista previa de las tarjetas" width="1080" height="2160">
+<figure class="post__image post__image" ><img loading="lazy" src="https://creemosenlared.com/media/posts/5/anki-4.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/5/responsive/anki-4-xs.jpg 300w ,https://creemosenlared.com/media/posts/5/responsive/anki-4-sm.jpg 480w ,https://creemosenlared.com/media/posts/5/responsive/anki-4-md.jpg 768w"  alt="Vista previa de las tarjetas" width="1080" height="2160">
 <figcaption >Vista previa de las tarjetas</figcaption>
 </figure>
 <p> </p>
 Vayan hasta la parte de abajo de esa pantalla y seleccionen el botón "Download"
-<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-5.jpg" alt="Seleccionar boton &quot;Download&quot;" width="1080" height="2160">
+<figure class="post__image post__image" ><img loading="lazy" src="https://creemosenlared.com/media/posts/5/anki-5.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/5/responsive/anki-5-xs.jpg 300w ,https://creemosenlared.com/media/posts/5/responsive/anki-5-sm.jpg 480w ,https://creemosenlared.com/media/posts/5/responsive/anki-5-md.jpg 768w"  alt="Seleccionar boton &quot;Download&quot;" width="1080" height="2160">
 <figcaption >Seleccionar botón "Download"</figcaption>
 </figure>
 <p> </p>
 Una vez descargado seleccionen la opcion "ADD"
-<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-6.jpg" alt="Seleccionar la opcion &quot;ADD&quot;" width="1080" height="2160">
+<figure class="post__image post__image" ><img loading="lazy" src="https://creemosenlared.com/media/posts/5/anki-6.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/5/responsive/anki-6-xs.jpg 300w ,https://creemosenlared.com/media/posts/5/responsive/anki-6-sm.jpg 480w ,https://creemosenlared.com/media/posts/5/responsive/anki-6-md.jpg 768w"  alt="Seleccionar la opcion &quot;ADD&quot;" width="1080" height="2160">
 <figcaption >Seleccionar la opción "ADD"</figcaption>
 </figure>
 <p> </p>
 Luego seleccionar la opción "OK"
-<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-7.jpg" alt="seleccionar la opcion &quot;OK&quot;" width="1080" height="2160">
+<figure class="post__image post__image" ><img loading="lazy" src="https://creemosenlared.com/media/posts/5/anki-7.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/5/responsive/anki-7-xs.jpg 300w ,https://creemosenlared.com/media/posts/5/responsive/anki-7-sm.jpg 480w ,https://creemosenlared.com/media/posts/5/responsive/anki-7-md.jpg 768w"  alt="seleccionar la opcion &quot;OK&quot;" width="1080" height="2160">
 <figcaption >seleccionar la opción "OK"</figcaption>
 </figure>
 <p>En la pantalla principal ahora deberían poder ver el grupo te tarjetas, selecciónenla para empezar a practicar</p>
-<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-8.jpg" alt="Seleccionar &quot;HTML Basico&quot; para practicar" width="1080" height="2160">
+<figure class="post__image post__image" ><img loading="lazy" src="https://creemosenlared.com/media/posts/5/anki-8.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/5/responsive/anki-8-xs.jpg 300w ,https://creemosenlared.com/media/posts/5/responsive/anki-8-sm.jpg 480w ,https://creemosenlared.com/media/posts/5/responsive/anki-8-md.jpg 768w"  alt="Seleccionar &quot;HTML Basico&quot; para practicar" width="1080" height="2160">
 <figcaption >Seleccionar "HTML Basico" para practicar</figcaption>
 </figure>
 <p>Cuando empiecen su sesión de practica les va a mostrar la descripción de un tag, intenten recordar cual es el tag o atributo, cuando estén segures o no puedan recordarlo seleccionen el botón "Show Answer"</p>
-<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-9.jpg" alt="Seleccionar el boton &quot;Show Answer&quot; para ver la respuesta" width="1080" height="2160">
+<figure class="post__image post__image" ><img loading="lazy" src="https://creemosenlared.com/media/posts/5/anki-9.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/5/responsive/anki-9-xs.jpg 300w ,https://creemosenlared.com/media/posts/5/responsive/anki-9-sm.jpg 480w ,https://creemosenlared.com/media/posts/5/responsive/anki-9-md.jpg 768w"  alt="Seleccionar el boton &quot;Show Answer&quot; para ver la respuesta" width="1080" height="2160">
 <figcaption >Seleccionar el botón "Show Answer" para ver la respuesta</figcaption>
 </figure>
 <p>Al ver la respuesta fíjense si acertaron o si no se la acordaban intenten repetirla mentalmente para recordarla, seleccionen cuan difícil o fácil fue recordarla con las tres opciones abajo, según cual seleccionen es cuanto va a tardar en mostrarles esa tarjeta de nuevo, honestidad ante todo :)</p>
-<figure class="post__image post__image" ><img src="http://creemosenlared.com/media/posts/5/anki-10.jpg" alt="Seleccionar cuan dificil o facil fue recordar la respuesta" width="1080" height="2160">
+<figure class="post__image post__image" ><img loading="lazy" src="https://creemosenlared.com/media/posts/5/anki-10.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/5/responsive/anki-10-xs.jpg 300w ,https://creemosenlared.com/media/posts/5/responsive/anki-10-sm.jpg 480w ,https://creemosenlared.com/media/posts/5/responsive/anki-10-md.jpg 768w"  alt="Seleccionar cuan dificil o facil fue recordar la respuesta" width="1080" height="2160">
 <figcaption >Seleccionar cuan difícil o fácil fue recordar la respuesta</figcaption>
 </figure>
 <p>Continúen hasta que les de el tiempo o las ganas o anki decida que es suficiente por hoy, usen sus tiempos libres o tiempos de aburrimiento para practicar un par de tarjetas.<br><br>Esta herramienta sirve para practicar cualquier cosa, busquen otros sets de tarjetas para sus temas de interés, pero después de practicar las de HTML :P</p>
@@ -153,10 +196,10 @@ Luego seleccionar la opción "OK"
         <author>
             <name>Creemos en la Red</name>
         </author>
-        <link href="http://creemosenlared.com/tercera-actividad-de-creemos-en-la-red-2020/"/>
-        <id>http://creemosenlared.com/tercera-actividad-de-creemos-en-la-red-2020/</id>
+        <link href="https://creemosenlared.com/tercera-actividad-de-creemos-en-la-red-2020/"/>
+        <id>https://creemosenlared.com/tercera-actividad-de-creemos-en-la-red-2020/</id>
 
-        <updated>2020-04-20T11:21:53+02:00</updated>
+        <updated>2020-07-06T20:37:51+02:00</updated>
             <summary>
                 <![CDATA[
                     Llego el día, vamos a empezar a escribir código HTML! Para concentrarnos&hellip;
@@ -165,23 +208,23 @@ Luego seleccionar la opción "OK"
         <content type="html">
             <![CDATA[
                 <p>Llego el día, vamos a empezar a escribir código HTML!<br><br>Para concentrarnos especialmente en la sintaxis del HTML, es decir el conjunto de reglas que definen las secuencias correctas de los elementos de un lenguaje de programación, vamos a hacer un ejercicio de "dictado".<br><br>El contenido va a ser preestablecido, simplemente nos vamos a ocupar de transcribirlo en el orden establecido prestando atención al orden y las reglas en las que podemos combinar los distintos elementos sintácticos que hacen que un archivo de texto sea código HTML valido.<br><br>El resultado del "dictado" va a verse así:</p>
-<p><img class="post__image" src="http://creemosenlared.com/media/posts/4/celr-consigna-3-ui.png" alt="" width="644" height="438"></p>
-<p>El código final va a verse similar al siguiente:<br><br><img class="post__image" style="font-size: inherit;" src="http://creemosenlared.com/media/posts/4/celr-consigna-3-codigo.png" alt="" width="552" height="576"></p>
+<figure class="post__image"><img loading="lazy"  src="https://creemosenlared.com/media/posts/4/celr-consigna-3-ui.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/4/responsive/celr-consigna-3-ui-xs.png 300w ,https://creemosenlared.com/media/posts/4/responsive/celr-consigna-3-ui-sm.png 480w ,https://creemosenlared.com/media/posts/4/responsive/celr-consigna-3-ui-md.png 768w"  alt="" width="644" height="438"></figure>
+<figure class="post__image">El código final va a verse similar al siguiente:<br><br><img loading="lazy"  style="font-size: inherit;" src="https://creemosenlared.com/media/posts/4/celr-consigna-3-codigo.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/4/responsive/celr-consigna-3-codigo-xs.png 300w ,https://creemosenlared.com/media/posts/4/responsive/celr-consigna-3-codigo-sm.png 480w ,https://creemosenlared.com/media/posts/4/responsive/celr-consigna-3-codigo-md.png 768w"  alt="" width="552" height="576"></figure>
 <p><span style="font-size: inherit;">Ahora la consigna que es bastante simple:<br><br>Seguir el siguiente video escribiendo el código en el orden en el que se va mostrando.<br><br>La herramienta que vamos a usar para escribir el código esta en </span><a href="http://creemosenlared.com/codigo-web/" style="font-size: inherit;">http://creemosenlared.com/codigo-web/</a></p>
 <p>Aclaración: no sirve escribir el código de principio a fin sin prestar atención al orden en el que normalmente se escribe, nadie escribe código de corrido y sin errores, es un proceso incremental, a base de prueba y error, por eso es importante escribirlo en el orden que se muestra.</p>
 <p>Una vez terminada la transcripción, crear un nuevo directorio en su sitio personal, llamado <strong>actividad-3</strong> con el código en un archivo llamado <strong>index.html</strong></p>
 <p>Crear un issue en <a href="https://github.com/CreemosEnLaRed/entregas/issues">https://github.com/CreemosEnLaRed/entregas/issues</a> usando la plantilla <strong class="f4">Entrega de Actividad 3</strong></p>
 <p class="msg msg--highlight  align-center"><strong>IMPORTANTE: cambiar en el titulo del issue por su user o nombre que aparece en telegram.</strong></p>
-<br><iframe width="560" height="315" src="https://www.youtube.com/embed/RJH5jU73aNI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<br><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/RJH5jU73aNI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 <p>En el siguiente video muestro algunas de las características útiles del editor de código para facilitarnos el trabajo:</p>
 <p> </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_uBSEHg5pTU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/_uBSEHg5pTU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 <p>Un video que explica en detalle las partes de un tag HTML:</p>
 <p> </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hKfSQXzz0_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/hKfSQXzz0_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 <p>Un video que explica en detalle las formas de agregar espacio fuera (margen, margin) y dentro (relleno, padding) de un tag:</p>
 <p> </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_3ZGRlX9KKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/_3ZGRlX9KKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 <p>Felicitaciones! al terminar esta actividad ya vas a estar usando el lenguaje y editor que vas a usar de ahora en mas para hacer paginas web :)</p>
             ]]>
         </content>
@@ -191,10 +234,10 @@ Luego seleccionar la opción "OK"
         <author>
             <name>Creemos en la Red</name>
         </author>
-        <link href="http://creemosenlared.com/segunda-actividad-de-creemos-en-la-red-2020/"/>
-        <id>http://creemosenlared.com/segunda-actividad-de-creemos-en-la-red-2020/</id>
+        <link href="https://creemosenlared.com/segunda-actividad-de-creemos-en-la-red-2020/"/>
+        <id>https://creemosenlared.com/segunda-actividad-de-creemos-en-la-red-2020/</id>
 
-        <updated>2020-04-09T11:00:41+02:00</updated>
+        <updated>2020-07-06T20:37:51+02:00</updated>
             <summary>
                 <![CDATA[
                     En la segunda actividad vamos a acercarnos un poco mas a nuestro&hellip;
@@ -235,16 +278,16 @@ Luego seleccionar la opción "OK"
 </ul>
 </li>
 </ul>
-<p><img class="post__image" src="http://creemosenlared.com/media/posts/3/tipo-bloques.png" alt="Tipos de Bloques" width="286" height="310"></p>
-<p><img class="post__image" src="http://creemosenlared.com/media/posts/3/seccion-texto.png" alt="" width="447" height="365"></p>
-<p><img class="post__image" src="http://creemosenlared.com/media/posts/3/seccion-otros.png" alt="" width="369" height="232"></p>
-<p><img class="post__image" src="http://creemosenlared.com/media/posts/3/seccion-lista.png" alt="" width="326" height="413"></p>
+<figure class="post__image"><img loading="lazy"  src="https://creemosenlared.com/media/posts/3/tipo-bloques.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/3/responsive/tipo-bloques-xs.png 300w ,https://creemosenlared.com/media/posts/3/responsive/tipo-bloques-sm.png 480w ,https://creemosenlared.com/media/posts/3/responsive/tipo-bloques-md.png 768w"  alt="Tipos de Bloques" width="286" height="310"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://creemosenlared.com/media/posts/3/seccion-texto.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/3/responsive/seccion-texto-xs.png 300w ,https://creemosenlared.com/media/posts/3/responsive/seccion-texto-sm.png 480w ,https://creemosenlared.com/media/posts/3/responsive/seccion-texto-md.png 768w"  alt="" width="447" height="365"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://creemosenlared.com/media/posts/3/seccion-otros.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/3/responsive/seccion-otros-xs.png 300w ,https://creemosenlared.com/media/posts/3/responsive/seccion-otros-sm.png 480w ,https://creemosenlared.com/media/posts/3/responsive/seccion-otros-md.png 768w"  alt="" width="369" height="232"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://creemosenlared.com/media/posts/3/seccion-lista.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://creemosenlared.com/media/posts/3/responsive/seccion-lista-xs.png 300w ,https://creemosenlared.com/media/posts/3/responsive/seccion-lista-sm.png 480w ,https://creemosenlared.com/media/posts/3/responsive/seccion-lista-md.png 768w"  alt="" width="326" height="413"></figure>
 <p>La explicacion de arriba pero en video:</p>
 <p> </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9bBRD3odTLk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/9bBRD3odTLk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 <p>Un video con el resumen de la actividad:</p>
 <p> </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4S59bXuZoTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/4S59bXuZoTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
             ]]>
         </content>
     </entry>
@@ -253,10 +296,10 @@ Luego seleccionar la opción "OK"
         <author>
             <name>Creemos en la Red</name>
         </author>
-        <link href="http://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/"/>
-        <id>http://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/</id>
+        <link href="https://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/"/>
+        <id>https://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/</id>
 
-        <updated>2020-05-05T23:22:02+02:00</updated>
+        <updated>2020-07-06T20:37:51+02:00</updated>
             <summary>
                 <![CDATA[
                     Hola! Felicitaciones a les participantes de la tercera edición de este curso,&hellip;
@@ -297,7 +340,7 @@ Luego seleccionar la opción "OK"
 <p>Si prefieren darnos feedback por privado pueden usar mensajes privados en las redes sociales o mandarnos un mail.</p>
 <p> </p>
 <p>Video de la actividad:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7u2Qk2xQ9IE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/7u2Qk2xQ9IE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
             ]]>
         </content>
     </entry>
@@ -306,10 +349,10 @@ Luego seleccionar la opción "OK"
         <author>
             <name>Creemos en la Red</name>
         </author>
-        <link href="http://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/"/>
-        <id>http://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/</id>
+        <link href="https://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/"/>
+        <id>https://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/</id>
 
-        <updated>2020-02-24T10:33:11+01:00</updated>
+        <updated>2020-07-06T20:37:51+02:00</updated>
             <summary>
                 <![CDATA[
                     Hola! Bienvenides a Creemos en la Red! En este curso vas a&hellip;
@@ -322,7 +365,7 @@ Luego seleccionar la opción "OK"
 <p>También nos permite otra cosa muy importante que es colaborar con otras personas en un mismo proyecto. Si tienen cierta edad, se acuerdan cuando no existía google drive y teníamos que mandarnos archivos de word por mail para hacer un TP grupal (o juntarnos sí o sí la misma casa). Era muy incómodo! En ese sentido, Git es como un Google Drive para programadores: centraliza todos los aportes en una versión "oficial" del proyecto y así permite que varias personas trabajen en un mismo proyecto sin pisarse.</p>
 <p><br>Por eso, Git (y GitHub) son usados en casi todos los trabajos de programación. Esta herramienta te va a ser intensamente útil en tu vida profesional si trabajás con código. <br><br>Para este primer ejercicio, solamente tenés que hacerte una cuenta en GitHub. Más adelante nos iremos familiarizando con cómo funciona.</p>
 <p>Video de la consigna:</p>
-<p>  <iframe width="560" height="315" src="https://www.youtube.com/embed/X02SCRqmBlk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p>  <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/X02SCRqmBlk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></p>
 <p>El primer paso es visitar el canal de <a href="https://www.youtube.com/channel/UC2aMPI6HqVakLiRnkImOShg/videos" target="_blank" rel="noopener noreferrer">youtube de Creemos en la Red</a> (y suscribirse si tenes ganas :)</p>
 <p>Ver los siguientes videos:</p>
 <ul>
