@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://creemosenlared.com/septima-actividad-de-creemos-en-la-red-2020/",
+            "url": "https://creemosenlared.com/septima-actividad-de-creemos-en-la-red-2020/",
+            "title": "Septima  Actividad de Creemos en la Red 2020!",
+            "summary": "Seguimos unificando conocimientos y probando como es hacer una pagina completa, esta&hellip;",
+            "content_html": "<p>Seguimos unificando conocimientos y probando como es hacer una pagina completa, esta vez con menos ayuda de nuestro querido bootstrap y siendo mejores habitantes de la web usando tags adecuados cuando la situación lo amerita.<br><br>La actividad consiste en hacer una pagina de cero, usando tags HTML semánticos y escribiendo todo el CSS \"a mano\", en el camino vamos a aprender a usar variables CSS para centralizar valores usados comúnmente como colores, de paso aprenderemos a hacer una version \"dark\" de nuestro sitio.<br><br>La actividad consiste en seguir el siguiente video, creando un sitio similar, adiciones son bienvenidas, uso de cosas ya aprendidas también, lo importante es usar los tags semánticos que se muestran, escribir todo el CSS y usar variables para crear una versión oscura del sitio.</p>\n<p><div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IIurPnMXna8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></div></p>\n<p>La fecha de entrega es el lunes 14 de setiembre usando la plantilla \"Actividad 6\" en <a href=\"https://github.com/creemosenlared/entregas/issues\">https://github.com/creemosenlared/entregas/issues</a></p>\n<p> </p>",
+            "author": {
+                "name": "Creemos en la Red"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-30T16:59:23+02:00",
+            "date_modified": "2020-08-30T16:59:23+02:00"
+        },
+        {
             "id": "https://creemosenlared.com/sexta-actividad-de-creemos-en-la-red-2020/",
             "url": "https://creemosenlared.com/sexta-actividad-de-creemos-en-la-red-2020/",
             "title": "Sexta Actividad de Creemos en la Red 2020!",
@@ -20,8 +34,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-06T20:37:51+02:00",
-            "date_modified": "2020-07-06T20:37:51+02:00"
+            "date_published": "2020-08-30T16:59:23+02:00",
+            "date_modified": "2020-08-30T16:59:23+02:00"
         },
         {
             "id": "https://creemosenlared.com/quinta-actividad-de-creemos-en-la-red-2020/",
@@ -34,8 +48,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-06T20:37:51+02:00",
-            "date_modified": "2020-07-06T20:37:51+02:00"
+            "date_published": "2020-08-30T16:59:23+02:00",
+            "date_modified": "2020-08-30T16:59:23+02:00"
         },
         {
             "id": "https://creemosenlared.com/cuarta-actividad-de-creemos-en-la-red-2020/",
@@ -48,8 +62,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-06T20:37:51+02:00",
-            "date_modified": "2020-07-06T20:37:51+02:00"
+            "date_published": "2020-08-30T16:59:23+02:00",
+            "date_modified": "2020-08-30T16:59:23+02:00"
         },
         {
             "id": "https://creemosenlared.com/practicando-tags-html-con-anki/",
@@ -62,8 +76,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-06T20:37:51+02:00",
-            "date_modified": "2020-07-06T20:37:51+02:00"
+            "date_published": "2020-08-30T16:59:23+02:00",
+            "date_modified": "2020-08-30T16:59:23+02:00"
         },
         {
             "id": "https://creemosenlared.com/tercera-actividad-de-creemos-en-la-red-2020/",
@@ -76,8 +90,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-06T20:37:51+02:00",
-            "date_modified": "2020-07-06T20:37:51+02:00"
+            "date_published": "2020-08-30T16:59:23+02:00",
+            "date_modified": "2020-08-30T16:59:23+02:00"
         },
         {
             "id": "https://creemosenlared.com/segunda-actividad-de-creemos-en-la-red-2020/",
@@ -90,8 +104,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-06T20:37:51+02:00",
-            "date_modified": "2020-07-06T20:37:51+02:00"
+            "date_published": "2020-08-30T16:59:23+02:00",
+            "date_modified": "2020-08-30T16:59:23+02:00"
         },
         {
             "id": "https://creemosenlared.com/primer-actividad-de-creemos-en-la-red-2020/",
@@ -104,8 +118,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-06T20:37:51+02:00",
-            "date_modified": "2020-07-06T20:37:51+02:00"
+            "date_published": "2020-08-30T16:59:23+02:00",
+            "date_modified": "2020-08-30T16:59:23+02:00"
         },
         {
             "id": "https://creemosenlared.com/consigna-de-ingreso-a-creemos-en-la-red-2020/",
@@ -118,8 +132,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-06T20:37:51+02:00",
-            "date_modified": "2020-07-06T20:37:51+02:00"
+            "date_published": "2020-08-30T16:59:23+02:00",
+            "date_modified": "2020-08-30T16:59:23+02:00"
         }
     ]
 }

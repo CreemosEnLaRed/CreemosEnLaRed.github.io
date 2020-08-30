@@ -112,7 +112,7 @@
     {
         "path": "/authors/creemos-en-la-red/index.html",
         "type": "file",
-        "md5": "5455d2ee2c19d077de5f50bf6bd4b5d4"
+        "md5": "48ef2acc24b9ae11c2277528e432c24a"
     },
     {
         "path": "consigna-de-ingreso-a-creemos-en-la-red-2020",
@@ -137,17 +137,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "de704d0e8f66dbfebaedd3d2fe0cd3a8"
+        "md5": "3ddc16837d10c0824e42031476e3d1e6"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "b3026c8f324c2f71c0e40f4b85ef7477"
+        "md5": "d3387717f3e25e8d7edfdad16a8ad12e"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "0dbe5c767251495e0c280b809bcf5974"
+        "md5": "460f1044032a82675668ecb674d686dc"
     },
     {
         "path": "media",
@@ -635,6 +635,16 @@
         "md5": "6ae2a58c21e3406253577febf0089362"
     },
     {
+        "path": "septima-actividad-de-creemos-en-la-red-2020",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/septima-actividad-de-creemos-en-la-red-2020/index.html",
+        "type": "file",
+        "md5": "df0d9969bd90ae9ed7bb9cdb6f3c1d94"
+    },
+    {
         "path": "sexta-actividad-de-creemos-en-la-red-2020",
         "type": "directory",
         "md5": false
@@ -642,12 +652,12 @@
     {
         "path": "/sexta-actividad-de-creemos-en-la-red-2020/index.html",
         "type": "file",
-        "md5": "32efe5c9f99aa9c8c6f9c68e54d01cfb"
+        "md5": "0186b2a559c941100112e839dfcd5a9c"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "644781468fd5d7aa527d98babbf08fc4"
+        "md5": "fbe96024907c44524eb172a2a2174337"
     },
     {
         "path": "sitemap.xsl",
