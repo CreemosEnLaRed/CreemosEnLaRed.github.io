@@ -112,7 +112,7 @@
     {
         "path": "/authors/creemos-en-la-red/index.html",
         "type": "file",
-        "md5": "48ef2acc24b9ae11c2277528e432c24a"
+        "md5": "2203a9fb68a2c7fc1db9b8f676114947"
     },
     {
         "path": "consigna-de-ingreso-a-creemos-en-la-red-2020",
@@ -122,7 +122,7 @@
     {
         "path": "/consigna-de-ingreso-a-creemos-en-la-red-2020/index.html",
         "type": "file",
-        "md5": "bb3228ccd807e1aa25fde427362c231f"
+        "md5": "37ef1a3711720842a8bbd875976e7b0d"
     },
     {
         "path": "cuarta-actividad-de-creemos-en-la-red-2020",
@@ -132,25 +132,30 @@
     {
         "path": "/cuarta-actividad-de-creemos-en-la-red-2020/index.html",
         "type": "file",
-        "md5": "defc3e57f8ac6372bd71d7a4b12c6805"
+        "md5": "e19728f6685859b97f6d9a7bdd7331ad"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "752a13479aea5631671f00adbdff16f3"
+        "md5": "cfd09bdf186183cf2f5abb092ed8e256"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "deff04fbb251b409d2f41c4a6fa03cf7"
+        "md5": "635e3e16873cff3b425549059ac414a6"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "debdb396269b22a526a9a1691ec03f74"
+        "md5": "e1dd84f34ab42ed88d93dacf69a5d931"
     },
     {
         "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/authors",
         "type": "directory",
         "md5": false
     },
@@ -585,9 +590,24 @@
         "md5": "cc405320d6ef90fc7af278c8012927d8"
     },
     {
+        "path": "media/tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
         "path": "media/website",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "octava-actividad-de-creemos-en-la-red",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/octava-actividad-de-creemos-en-la-red/index.html",
+        "type": "file",
+        "md5": "cdf13ec125db9e8fcb67ed80784c4bf1"
     },
     {
         "path": "practicando-tags-html-con-anki",
@@ -617,7 +637,12 @@
     {
         "path": "/quinta-actividad-de-creemos-en-la-red-2020/index.html",
         "type": "file",
-        "md5": "e24a2da5fe3c0abaee0a7929dcf09eb0"
+        "md5": "6d64288de9c8c9788b184807e90b69f1"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "cdd45fecbbc5e48c5f9d234ec1a7d7d4"
     },
     {
         "path": "search.html",
@@ -642,7 +667,7 @@
     {
         "path": "/septima-actividad-de-creemos-en-la-red-2020/index.html",
         "type": "file",
-        "md5": "6c07fbb557c29ab3e1c07334749efcb0"
+        "md5": "acf835e75f2a795c2651f3cffa3d2bc7"
     },
     {
         "path": "sexta-actividad-de-creemos-en-la-red-2020",
@@ -652,12 +677,12 @@
     {
         "path": "/sexta-actividad-de-creemos-en-la-red-2020/index.html",
         "type": "file",
-        "md5": "0186b2a559c941100112e839dfcd5a9c"
+        "md5": "25cd8b95b41dbcd79b56bd51bcdb12d8"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "435c61515aa19fffa74f5e27f33afebb"
+        "md5": "c1fffb40dcca93ac002f42201f1559d5"
     },
     {
         "path": "sitemap.xsl",
