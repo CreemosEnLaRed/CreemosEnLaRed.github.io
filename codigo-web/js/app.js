@@ -46,6 +46,26 @@ function main(editor, models, {defaultHTMLCode, defaultCSSCode}) {
   updateResult(editor, models, false);
   window.setInterval(() => lint(models.html), 1000);
   translateMsgs();
+
+  const params = new URLSearchParams(location.search),
+    htmlUrl = params.get('h'),
+    cssUrl = params.get('c');
+
+  if (htmlUrl) {
+    withTextFromURL(htmlUrl, v => models.html.setValue(v));
+  }
+
+  if (cssUrl) {
+    withTextFromURL(cssUrl, v => models.css.setValue(v));
+  }
+}
+
+function withTextFromURL(url, cb) {
+  fetch(url).then(res => {
+    if (res.status === 200) {
+      res.text().then(cb);
+    }
+  });
 }
 
 function byId(id) {

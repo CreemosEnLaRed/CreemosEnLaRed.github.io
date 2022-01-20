@@ -1,0 +1,23 @@
+{
+  "name": "creemosenlared.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreemosEnLaRed/CreemosEnLaRed.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CreemosEnLaRed/CreemosEnLaRed.github.io/issues"
+  },
+  "homepage": "https://github.com/CreemosEnLaRed/CreemosEnLaRed.github.io#readme",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1"
+  }
+}
